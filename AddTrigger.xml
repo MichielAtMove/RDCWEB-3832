@@ -1038,7 +1038,7 @@
         <node column0="(33,25) connections.AddTrigger(&quot;SAVE_LISTING_CLICKED&quot;, WidgetEventConnector.Events.Message, &quot;SAVE_LISTING&quot;);" />
         <node column0="(34,25) connections.AddTrigger(&quot;CLOSE_MODAL&quot;, WidgetEventConnector.Events.Message, &quot;CLOSE_MODAL&quot;);" />
         <node column0="(47,25) connections.AddTrigger(&quot;CLOSE_MODAL&quot;, WidgetEventConnector.Events.Message, &quot;CLOSE_MODAL&quot;);" />
-        <node column0="(48,25) connections.AddTrigger(&quot;GET_A_FREE_MOVING_QUOTE_LAUNCH&quot;, WidgetEventConnector.Events.Message," />
+        <node column0="(48,25) connections.AddTrigger(&quot;GET_A_FREE_MOVING_QUOTE_LAUNCH&quot;, WidgetEventConnector.Events.Message, &quot;LAUNCH_FREE_MOVING_QUOTE&quot;)" />
         <node column0="(50,25) connections.AddTrigger(&quot;SAVE_LISTING_CLICKED&quot;, WidgetEventConnector.Events.Message, &quot;SAVE_LISTING&quot;);" />
         <node column0="(83,25) connections.AddTrigger(&quot;SAVE_LISTING_CLICKED&quot;, WidgetEventConnector.Events.Message, &quot;SAVE_LISTING&quot;);" />
         <node column0="(84,25) connections.AddTrigger(&quot;SUBMIT_CAPTCHA&quot;, WidgetEventConnector.Events.Message, &quot;SUBMIT_CAPTCHA&quot;);" />
