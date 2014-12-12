@@ -1,0 +1,1057 @@
+﻿<model>
+  <node column0="Search target">
+    <node column0="Move.Realtor.Web.Helpers.WidgetEventConnector.AddListener(string channelName, string callbackFunction, string format):void" />
+  </node>
+  <node column0="Found 834 usages in solution">
+    <node column0="&lt;Move.Realtor.Web.Helpers&gt; (1 item)">
+      <node column0="Move.Realtor.Web.Helpers.WidgetEventConnector (1 item)">
+        <node column0="AddListener(IEnumerable&lt;Channel&gt; channels, string callbackFunction, string format):void (1 item)">
+          <node column0="(102,17) AddListener(GetChannelAsString(channel), callbackFunction, format); " />
+        </node>
+      </node>
+    </node>
+    <node column0="&lt;Move.Realtor.Web&gt; (833 items)">
+      <node column0="Move.Realtor.Web.Areas.Public.Controllers.Lead.AskAQuestionController (2 items)">
+        <node column0="Index(ControllerParameters parameters):ActionResult (2 items)">
+          <node column0="(26,25) connections.AddListener(&quot;LISTING_SAVED&quot;, &quot;listingSaved&quot;);" />
+          <node column0="(27,25) connections.AddListener(&quot;USER_SIGNED_IN&quot;, &quot;updateToken&quot;);" />
+        </node>
+      </node>
+      <node column0="Move.Realtor.Web.ModelAggregates.ModalLeadThankYouTop (1 item)">
+        <node column0="ModalLeadThankYouTop(WidgetEventConnector connections, IWebRequester requester, bool isShowCase, bool isOfficeStandard, bool isCobroke, bool submitSmartLeads, string propertyStatus) (1 item)">
+          <node column0="(51,25) connections.AddListener(&quot;CLOSE_MODAL&quot;, &quot;onHidden&quot;);" />
+        </node>
+      </node>
+      <node column0="Move.Realtor.Web.Areas.Public.Controllers.Lead.RequestHomeReportController (1 item)">
+        <node column0="Index(ControllerParameters parameters):ActionResult (1 item)">
+          <node column0="(30,25) connections.AddListener(&quot;USER_SIGNED_IN&quot;, &quot;updateToken&quot;);" />
+        </node>
+      </node>
+      <node column0="Move.Realtor.Web.Areas.Public.Controllers.Lead.RequestMoreDetailsController (2 items)">
+        <node column0="PrepareWidgetConnections(ControllerParameters parameters):WidgetEventConnector (2 items)">
+          <node column0="(89,25) connections.AddListener(&quot;LISTING_SAVED&quot;, &quot;listingSaved&quot;);" />
+          <node column0="(90,25) connections.AddListener(&quot;USER_SIGNED_IN&quot;, &quot;updateToken&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_FindAHome_Views_default_AlphaSortPage_cshtml (18 items)">
+        <node column0="Execute():void (18 items)">
+          <node column0="(65,17) connections.AddListener(&quot;USER_SIGNED_IN&quot;, &quot;signInSuccess&quot;);" />
+          <node column0="(66,17) connections.AddListener(&quot;USER_SIGNED_UP&quot;, &quot;signUpSuccess&quot;);" />
+          <node column0="(67,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(68,17) connections.AddListener(&quot;LAUNCH_SIGN_IN&quot;, &quot;signIn&quot;);" />
+          <node column0="(69,17) connections.AddListener(&quot;LAUNCH_SIGN_UP&quot;, &quot;signUp&quot;);" />
+          <node column0="(70,17) connections.AddListener(&quot;SAVE_LISTING&quot;, &quot;saveListing&quot;);" />
+          <node column0="(71,17) connections.AddListener(&quot;SAVE_SEARCH&quot;, &quot;saveSearch&quot;);" />
+          <node column0="(91,17) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;updatePredictiveText&quot;);" />
+          <node column0="(92,17) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;animateClosed&quot;);" />
+          <node column0="(93,17) connections.AddListener(&quot;OPEN_PREDICTIVE_TEXT&quot;, &quot;openPredictiveText&quot;);" />
+          <node column0="(94,17) connections.AddListener(&quot;NAVIGATE_PREDICTIVE_TEXT&quot;, &quot;navigateInPredictiveTxt&quot;);" />
+          <node column0="(109,17) connections.AddListener(&quot;CLOSE_DIDYOUMEAN&quot;, &quot;endSubmission&quot;);" />
+          <node column0="(111,17) connections.AddListener(&quot;SUBMIT_LOCATION&quot;, &quot;submitForm&quot;);" />
+          <node column0="(129,17) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;didYouMean&quot;);" />
+          <node column0="(130,17) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;close&quot;);" />
+          <node column0="(148,17) connections.AddListener(&quot;LOAD_MODAL&quot;, &quot;loadModal&quot;);" />
+          <node column0="(149,17) connections.AddListener(&quot;CLOSE_MODAL&quot;, &quot;closeModal&quot;);" />
+          <node column0="(150,17) connections.AddListener(&quot;RESIZE_MODAL&quot;, &quot;resizeModal&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_FindAHome_Views_default_CDP_cshtml (24 items)">
+        <node column0="Execute():void (24 items)">
+          <node column0="(70,17) connections.AddListener(&quot;USER_SIGNED_IN&quot;, &quot;signInSuccess&quot;);" />
+          <node column0="(71,17) connections.AddListener(&quot;USER_SIGNED_UP&quot;, &quot;signUpSuccess&quot;);" />
+          <node column0="(72,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(73,17) connections.AddListener(&quot;LAUNCH_SIGN_IN&quot;, &quot;signIn&quot;);" />
+          <node column0="(74,17) connections.AddListener(&quot;LAUNCH_SIGN_UP&quot;, &quot;signUp&quot;);" />
+          <node column0="(75,17) connections.AddListener(&quot;SAVE_LISTING&quot;, &quot;saveListing&quot;);" />
+          <node column0="(76,17) connections.AddListener(&quot;SAVE_SEARCH&quot;, &quot;saveSearch&quot;);" />
+          <node column0="(98,17) connections.AddListener(&quot;LAUNCH_FREE_MOVING_QUOTE&quot;, &quot;freeMovingQuote&quot;);" />
+          <node column0="(112,17) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;updatePredictiveText&quot;);" />
+          <node column0="(113,17) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;animateClosed&quot;);" />
+          <node column0="(114,17) connections.AddListener(&quot;OPEN_PREDICTIVE_TEXT&quot;, &quot;openPredictiveText&quot;);" />
+          <node column0="(115,17) connections.AddListener(&quot;NAVIGATE_PREDICTIVE_TEXT&quot;, &quot;navigateInPredictiveTxt&quot;);" />
+          <node column0="(130,17) connections.AddListener(&quot;CLOSE_DIDYOUMEAN&quot;, &quot;endSubmission&quot;);" />
+          <node column0="(132,17) connections.AddListener(&quot;SUBMIT_LOCATION&quot;, &quot;submitForm&quot;);" />
+          <node column0="(149,17) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;didYouMean&quot;);" />
+          <node column0="(150,17) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;close&quot;);" />
+          <node column0="(167,17) connections.AddListener(&quot;LOAD_MODAL&quot;, &quot;loadModal&quot;);" />
+          <node column0="(168,17) connections.AddListener(&quot;CLOSE_MODAL&quot;, &quot;closeModal&quot;);" />
+          <node column0="(169,17) connections.AddListener(&quot;RESIZE_MODAL&quot;, &quot;resizeModal&quot;);" />
+          <node column0="(178,17) connections.AddListener(&quot;SUBMIT_CAPTCHA&quot;, &quot;submit&quot;);" />
+          <node column0="(179,17) connections.AddListener(&quot;INIT_CAPTCHA&quot;, &quot;initCaptcha&quot;);" />
+          <node column0="(283,17) connections.AddListener(&quot;USER_ACTIVITY&quot;, &quot;update&quot;);" />
+          <node column0="(284,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(285,17) connections.AddListener(&quot;ON_READY&quot;, &quot;setClientData&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_FindAHome_Views_default_FindAHomeSRP_cshtml (47 items)">
+        <node column0="Execute():void (47 items)">
+          <node column0="(29,17) connections.AddListener(&quot;CLOSE_DIDYOUMEAN&quot;, &quot;endSubmission&quot;);" />
+          <node column0="(31,17) connections.AddListener(&quot;SUBMIT_LOCATION&quot;, &quot;submitForm&quot;);" />
+          <node column0="(48,17) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;didYouMean&quot;);" />
+          <node column0="(49,17) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;close&quot;);" />
+          <node column0="(66,17) connections.AddListener(&quot;LOAD_MODAL&quot;, &quot;loadModal&quot;);" />
+          <node column0="(67,17) connections.AddListener(&quot;CLOSE_MODAL&quot;, &quot;closeModal&quot;);" />
+          <node column0="(68,17) connections.AddListener(&quot;RESIZE_MODAL&quot;, &quot;resizeModal&quot;);" />
+          <node column0="(100,19) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;show&quot;);" />
+          <node column0="(101,19) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;hide&quot;);" />
+          <node column0="(118,20) connections.AddListener(&quot;DO_A_PROPERTY_SEARCH&quot;, &quot;doSearch&quot;);" />
+          <node column0="(128,20) connections.AddListener(&quot;SAVE_RECENT_SEARCH&quot;, &quot;saveRecentSearches&quot;, &quot;JSON&quot;);" />
+          <node column0="(131,24) connections.AddListener(&quot;SEARCH_COUNTER&quot;, &quot;searchCounter&quot;, &quot;JSON&quot;);" />
+          <node column0="(152,21) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;move&quot;);" />
+          <node column0="(153,21) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;shrink&quot;);" />
+          <node column0="(217,21) connections.AddListener(&quot;USER_SIGNED_IN&quot;, &quot;signInSuccess&quot;);" />
+          <node column0="(218,21) connections.AddListener(&quot;USER_SIGNED_UP&quot;, &quot;signUpSuccess&quot;);" />
+          <node column0="(219,21) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(220,21) connections.AddListener(&quot;LAUNCH_SIGN_IN&quot;, &quot;signIn&quot;);" />
+          <node column0="(221,21) connections.AddListener(&quot;LAUNCH_SIGN_UP&quot;, &quot;signUp&quot;);" />
+          <node column0="(222,21) connections.AddListener(&quot;SAVE_LISTING&quot;, &quot;saveListing&quot;);" />
+          <node column0="(223,21) connections.AddListener(&quot;REMOVE_LISTING&quot;, &quot;deleteListing&quot;);" />
+          <node column0="(224,21) connections.AddListener(&quot;SAVE_SEARCH&quot;, &quot;saveSearch&quot;);        " />
+          <node column0="(225,21) connections.AddListener(&quot;REMOVE_SEARCH&quot;, &quot;deleteSearch&quot;);" />
+          <node column0="(226,21) connections.AddListener(&quot;RECENT_USER_ACT_LAUNCH_SIGN_IN&quot;, &quot;signInfrmRecentUserActivity&quot;);" />
+          <node column0="(227,21) connections.AddListener(&quot;RECENT_USER_ACT_LAUNCH_SIGN_UP&quot;, &quot;signUpfrmRecentUserActivity&quot;); " />
+          <node column0="(251,21) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;updatePredictiveText&quot;);" />
+          <node column0="(252,21) connections.AddListener(&quot;CLOSE_PREDICTIVE_TEXT&quot;, &quot;animateClosed&quot;);" />
+          <node column0="(253,21) connections.AddListener(&quot;OPEN_PREDICTIVE_TEXT&quot;, &quot;openPredictiveText&quot;);" />
+          <node column0="(254,21) connections.AddListener(&quot;NAVIGATE_PREDICTIVE_TEXT&quot;, &quot;navigateInPredictiveTxt&quot;);" />
+          <node column0="(269,25) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;move&quot;);" />
+          <node column0="(270,25) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;shrink&quot;);" />
+          <node column0="(291,29) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;, &quot;updateCount&quot;, &quot;JSON&quot;);" />
+          <node column0="(292,29) connections.AddListener(&quot;CHANGE_VIEW&quot;, &quot;changeView&quot;, &quot;JSON&quot;);" />
+          <node column0="(297,29) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;updateByShowMapClick&quot;);" />
+          <node column0="(298,29) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;updateByShowListViewClick&quot;);" />
+          <node column0="(316,25) connections.AddListener(&quot;UPDATE_PROPERTY_SEARCH_CRITERIA&quot;, &quot;updateLocation&quot;);" />
+          <node column0="(318,25) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;);" />
+          <node column0="(339,25) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;, &quot;updateConfig&quot;, &quot;JSON&quot;);" />
+          <node column0="(340,25) connections.AddListener(&quot;LISTINGS_PAGE_CHANGED&quot;, &quot;updateConfig&quot;, &quot;JSON&quot;);" />
+          <node column0="(341,25) connections.AddListener(&quot;SWITCH_LISTING_MAP_VIEW&quot;, &quot;updateConfig&quot;, &quot;JSON&quot;);" />
+          <node column0="(357,25) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;, &quot;updateConfig&quot;, &quot;JSON&quot;);" />
+          <node column0="(405,21) connections.AddListener(&quot;USER_ACTIVITY&quot;,&quot;update&quot;);" />
+          <node column0="(406,21) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(407,21) connections.AddListener(&quot;RENDER_RECENTSEARCH&quot;, &quot;updateRecentUserSearches&quot;);" />
+          <node column0="(408,21) connections.AddListener(&quot;RENDER_RECENTLISTING&quot;, &quot;updateRecentUserListing&quot;);" />
+          <node column0="(409,21) connections.AddListener(&quot;ON_READY&quot;, &quot;setClientData&quot;);" />
+          <node column0="(420,17) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_FindAHome_Views_default_FindAHomeState_cshtml (18 items)">
+        <node column0="Execute():void (18 items)">
+          <node column0="(59,17) connections.AddListener(&quot;USER_SIGNED_IN&quot;, &quot;signInSuccess&quot;);" />
+          <node column0="(60,17) connections.AddListener(&quot;USER_SIGNED_UP&quot;, &quot;signUpSuccess&quot;);" />
+          <node column0="(61,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(62,17) connections.AddListener(&quot;LAUNCH_SIGN_IN&quot;, &quot;signIn&quot;);" />
+          <node column0="(63,17) connections.AddListener(&quot;LAUNCH_SIGN_UP&quot;, &quot;signUp&quot;);" />
+          <node column0="(64,17) connections.AddListener(&quot;SAVE_LISTING&quot;, &quot;saveListing&quot;);" />
+          <node column0="(65,17) connections.AddListener(&quot;SAVE_SEARCH&quot;, &quot;saveSearch&quot;);" />
+          <node column0="(85,17) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;updatePredictiveText&quot;);" />
+          <node column0="(86,17) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;animateClosed&quot;);" />
+          <node column0="(87,17) connections.AddListener(&quot;OPEN_PREDICTIVE_TEXT&quot;, &quot;openPredictiveText&quot;);" />
+          <node column0="(88,17) connections.AddListener(&quot;NAVIGATE_PREDICTIVE_TEXT&quot;, &quot;navigateInPredictiveTxt&quot;);" />
+          <node column0="(103,17) connections.AddListener(&quot;CLOSE_DIDYOUMEAN&quot;, &quot;endSubmission&quot;);" />
+          <node column0="(105,17) connections.AddListener(&quot;SUBMIT_LOCATION&quot;, &quot;submitForm&quot;);" />
+          <node column0="(122,17) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;didYouMean&quot;);" />
+          <node column0="(123,17) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;close&quot;);" />
+          <node column0="(140,17) connections.AddListener(&quot;LOAD_MODAL&quot;, &quot;loadModal&quot;);" />
+          <node column0="(141,17) connections.AddListener(&quot;CLOSE_MODAL&quot;, &quot;closeModal&quot;);" />
+          <node column0="(142,17) connections.AddListener(&quot;RESIZE_MODAL&quot;, &quot;resizeModal&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_FindAHome_Views_default_LDPError_cshtml (25 items)">
+        <node column0="Execute():void (25 items)">
+          <node column0="(35,17) connections.AddListener(&quot;CLOSE_DIDYOUMEAN&quot;, &quot;endSubmission&quot;);" />
+          <node column0="(37,17) connections.AddListener(&quot;SUBMIT_LOCATION&quot;, &quot;submitForm&quot;);" />
+          <node column0="(54,17) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;didYouMean&quot;);" />
+          <node column0="(55,17) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;close&quot;);" />
+          <node column0="(72,17) connections.AddListener(&quot;LOAD_MODAL&quot;, &quot;loadModal&quot;);" />
+          <node column0="(73,17) connections.AddListener(&quot;CLOSE_MODAL&quot;, &quot;closeModal&quot;);" />
+          <node column0="(74,17) connections.AddListener(&quot;RESIZE_MODAL&quot;, &quot;resizeModal&quot;);" />
+          <node column0="(149,17) connections.AddListener(&quot;USER_SIGNED_IN&quot;, &quot;signInSuccess&quot;);" />
+          <node column0="(150,17) connections.AddListener(&quot;USER_SIGNED_UP&quot;, &quot;signUpSuccess&quot;);" />
+          <node column0="(151,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(152,17) connections.AddListener(&quot;LAUNCH_SIGN_IN&quot;, &quot;signIn&quot;);" />
+          <node column0="(153,17) connections.AddListener(&quot;LAUNCH_SIGN_UP&quot;, &quot;signUp&quot;);" />
+          <node column0="(154,17) connections.AddListener(&quot;SAVE_LISTING&quot;, &quot;saveListing&quot;);" />
+          <node column0="(155,17) connections.AddListener(&quot;SAVE_SEARCH&quot;, &quot;saveSearch&quot;);" />
+          <node column0="(156,17) connections.AddListener(&quot;RECENT_USER_ACT_LAUNCH_SIGN_IN&quot;, &quot;signInfrmRecentUserActivity&quot;);" />
+          <node column0="(157,17) connections.AddListener(&quot;RECENT_USER_ACT_LAUNCH_SIGN_UP&quot;, &quot;signUpfrmRecentUserActivity&quot;);" />
+          <node column0="(179,17) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;updatePredictiveText&quot;);" />
+          <node column0="(180,17) connections.AddListener(&quot;CLOSE_PREDICTIVE_TEXT&quot;, &quot;animateClosed&quot;);" />
+          <node column0="(181,17) connections.AddListener(&quot;OPEN_PREDICTIVE_TEXT&quot;, &quot;openPredictiveText&quot;);" />
+          <node column0="(182,17) connections.AddListener(&quot;NAVIGATE_PREDICTIVE_TEXT&quot;, &quot;navigateInPredictiveTxt&quot;);" />
+          <node column0="(197,17) connections.AddListener(&quot;USER_ACTIVITY&quot;, &quot;update&quot;);" />
+          <node column0="(198,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(199,17) connections.AddListener(&quot;RENDER_RECENTSEARCH&quot;, &quot;updateRecentUserSearches&quot;);" />
+          <node column0="(200,17) connections.AddListener(&quot;RENDER_RECENTLISTING&quot;, &quot;updateRecentUserListing&quot;);" />
+          <node column0="(201,17) connections.AddListener(&quot;ON_READY&quot;, &quot;setClientData&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_FindAHome_Views_default_LDP_cshtml (25 items)">
+        <node column0="Execute():void (25 items)">
+          <node column0="(73,17) connections.AddListener(&quot;USER_SIGNED_IN&quot;, &quot;signInSuccess&quot;);" />
+          <node column0="(74,17) connections.AddListener(&quot;USER_SIGNED_UP&quot;, &quot;signUpSuccess&quot;);" />
+          <node column0="(75,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(76,17) connections.AddListener(&quot;LAUNCH_SIGN_IN&quot;, &quot;signIn&quot;);" />
+          <node column0="(77,17) connections.AddListener(&quot;LAUNCH_SIGN_UP&quot;, &quot;signUp&quot;);" />
+          <node column0="(78,17) connections.AddListener(&quot;SAVE_LISTING&quot;, &quot;saveListing&quot;);" />
+          <node column0="(79,17) connections.AddListener(&quot;REMOVE_LISTING&quot;, &quot;deleteListing&quot;);" />
+          <node column0="(80,17) connections.AddListener(&quot;SAVE_SEARCH&quot;, &quot;saveSearch&quot;);" />
+          <node column0="(103,17) connections.AddListener(&quot;LAUNCH_FREE_MOVING_QUOTE&quot;, &quot;freeMovingQuote&quot;);" />
+          <node column0="(117,17) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;updatePredictiveText&quot;);" />
+          <node column0="(118,17) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;animateClosed&quot;);" />
+          <node column0="(119,17) connections.AddListener(&quot;OPEN_PREDICTIVE_TEXT&quot;, &quot;openPredictiveText&quot;);" />
+          <node column0="(120,17) connections.AddListener(&quot;NAVIGATE_PREDICTIVE_TEXT&quot;, &quot;navigateInPredictiveTxt&quot;);" />
+          <node column0="(135,17) connections.AddListener(&quot;CLOSE_DIDYOUMEAN&quot;, &quot;endSubmission&quot;);" />
+          <node column0="(137,17) connections.AddListener(&quot;SUBMIT_LOCATION&quot;, &quot;submitForm&quot;);" />
+          <node column0="(154,17) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;didYouMean&quot;);" />
+          <node column0="(155,17) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;close&quot;);" />
+          <node column0="(172,17) connections.AddListener(&quot;LOAD_MODAL&quot;, &quot;loadModal&quot;);" />
+          <node column0="(173,17) connections.AddListener(&quot;CLOSE_MODAL&quot;, &quot;closeModal&quot;);" />
+          <node column0="(174,17) connections.AddListener(&quot;RESIZE_MODAL&quot;, &quot;resizeModal&quot;);" />
+          <node column0="(183,17) connections.AddListener(&quot;SUBMIT_CAPTCHA&quot;, &quot;submit&quot;);" />
+          <node column0="(184,17) connections.AddListener(&quot;INIT_CAPTCHA&quot;, &quot;initCaptcha&quot;);" />
+          <node column0="(295,17) connections.AddListener(&quot;USER_ACTIVITY&quot;, &quot;update&quot;);" />
+          <node column0="(296,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(297,17) connections.AddListener(&quot;ON_READY&quot;, &quot;setClientData&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_FindAHome_Views_default_MapSRP_cshtml (41 items)">
+        <node column0="Execute():void (41 items)">
+          <node column0="(25,17) connections.AddListener(&quot;CLOSE_DIDYOUMEAN&quot;, &quot;endSubmission&quot;);" />
+          <node column0="(27,17) connections.AddListener(&quot;SUBMIT_LOCATION&quot;, &quot;submitForm&quot;);" />
+          <node column0="(44,17) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;didYouMean&quot;);" />
+          <node column0="(45,17) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;close&quot;);" />
+          <node column0="(62,17) connections.AddListener(&quot;LOAD_MODAL&quot;, &quot;loadModal&quot;);" />
+          <node column0="(63,17) connections.AddListener(&quot;CLOSE_MODAL&quot;, &quot;closeModal&quot;);" />
+          <node column0="(64,17) connections.AddListener(&quot;RESIZE_MODAL&quot;, &quot;resizeModal&quot;);" />
+          <node column0="(76,20) connections.AddListener(&quot;DO_A_PROPERTY_SEARCH&quot;, &quot;doSearch&quot;);" />
+          <node column0="(89,20) connections.AddListener(&quot;SAVE_RECENT_SEARCH&quot;, &quot;saveRecentSearches&quot;, &quot;JSON&quot;);" />
+          <node column0="(97,29) connections.AddListener(&quot;SEARCH_COUNTER&quot;, &quot;searchCounter&quot;, &quot;JSON&quot;);" />
+          <node column0="(121,21) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;move&quot;);" />
+          <node column0="(122,21) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;shrink&quot;);" />
+          <node column0="(184,21) connections.AddListener(&quot;USER_SIGNED_IN&quot;, &quot;signInSuccess&quot;);" />
+          <node column0="(185,21) connections.AddListener(&quot;USER_SIGNED_UP&quot;, &quot;signUpSuccess&quot;);" />
+          <node column0="(186,21) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(187,21) connections.AddListener(&quot;LAUNCH_SIGN_IN&quot;, &quot;signIn&quot;);" />
+          <node column0="(188,21) connections.AddListener(&quot;LAUNCH_SIGN_UP&quot;, &quot;signUp&quot;);" />
+          <node column0="(189,21) connections.AddListener(&quot;SAVE_LISTING&quot;, &quot;saveListing&quot;);" />
+          <node column0="(190,21) connections.AddListener(&quot;SAVE_SEARCH&quot;, &quot;saveSearch&quot;);" />
+          <node column0="(191,21) connections.AddListener(&quot;REMOVE_SEARCH&quot;, &quot;deleteSearch&quot;);" />
+          <node column0="(192,21) connections.AddListener(&quot;RECENT_USER_ACT_LAUNCH_SIGN_IN&quot;, &quot;signInfrmRecentUserActivity&quot;);" />
+          <node column0="(193,21) connections.AddListener(&quot;RECENT_USER_ACT_LAUNCH_SIGN_UP&quot;, &quot;signUpfrmRecentUserActivity&quot;);        " />
+          <node column0="(212,21) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;updatePredictiveText&quot;);" />
+          <node column0="(213,21) connections.AddListener(&quot;CLOSE_PREDICTIVE_TEXT&quot;, &quot;animateClosed&quot;);" />
+          <node column0="(214,21) connections.AddListener(&quot;OPEN_PREDICTIVE_TEXT&quot;, &quot;openPredictiveText&quot;);" />
+          <node column0="(215,21) connections.AddListener(&quot;NAVIGATE_PREDICTIVE_TEXT&quot;, &quot;navigateInPredictiveTxt&quot;);" />
+          <node column0="(233,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;toggleSearchSaved&quot;);" />
+          <node column0="(236,17) connections.AddListener(&quot;SAVE_LISTING&quot;, &quot;saveListing&quot;);" />
+          <node column0="(237,17) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;show&quot;);" />
+          <node column0="(238,17) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;hide&quot;);" />
+          <node column0="(239,17) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;, &quot;updateConfig&quot;, &quot;JSON&quot;);" />
+          <node column0="(262,17) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;, &quot;updateConfig&quot;, &quot;JSON&quot;);" />
+          <node column0="(263,17) connections.AddListener(&quot;LISTINGS_PAGE_CHANGED&quot;, &quot;updateConfig&quot;, &quot;JSON&quot;);" />
+          <node column0="(264,17) connections.AddListener(&quot;SWITCH_LISTING_MAP_VIEW&quot;, &quot;updateConfig&quot;, &quot;JSON&quot;);" />
+          <node column0="(277,17) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;, &quot;updateConfig&quot;, &quot;JSON&quot;);" />
+          <node column0="(296,21) connections.AddListener(&quot;USER_ACTIVITY&quot;,&quot;update&quot;);" />
+          <node column0="(297,21) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(298,21) connections.AddListener(&quot;RENDER_RECENTSEARCH&quot;, &quot;updateRecentUserSearches&quot;);" />
+          <node column0="(299,21) connections.AddListener(&quot;RENDER_RECENTLISTING&quot;, &quot;updateRecentUserListing&quot;);" />
+          <node column0="(300,21) connections.AddListener(&quot;ON_READY&quot;, &quot;setClientData&quot;);" />
+          <node column0="(311,17) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_FindAHome_Views_default_NewHomesSRP_cshtml (51 items)">
+        <node column0="Execute():void (51 items)">
+          <node column0="(13,17) connections.AddListener(&quot;LOAD_MODAL&quot;, &quot;loadModal&quot;);" />
+          <node column0="(14,17) connections.AddListener(&quot;CLOSE_MODAL&quot;, &quot;closeModal&quot;);" />
+          <node column0="(15,17) connections.AddListener(&quot;RESIZE_MODAL&quot;, &quot;resizeModal&quot;);" />
+          <node column0="(41,21) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;show&quot;);" />
+          <node column0="(42,21) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;hide&quot;);" />
+          <node column0="(64,17) connections.AddListener(&quot;CLOSE_DIDYOUMEAN&quot;, &quot;endSubmission&quot;);" />
+          <node column0="(66,17) connections.AddListener(&quot;SUBMIT_LOCATION&quot;, &quot;submitForm&quot;);" />
+          <node column0="(84,17) connections.AddListener(&quot;DO_A_PROPERTY_SEARCH&quot;, &quot;doSearch&quot;);" />
+          <node column0="(88,17) connections.AddListener(&quot;SAVE_RECENT_SEARCH&quot;, &quot;saveRecentSearches&quot;, &quot;JSON&quot;);" />
+          <node column0="(108,17) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;didYouMean&quot;);" />
+          <node column0="(109,17) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;close&quot;);" />
+          <node column0="(119,17) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;move&quot;);" />
+          <node column0="(120,17) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;shrink&quot;);" />
+          <node column0="(183,17) connections.AddListener(&quot;USER_SIGNED_IN&quot;, &quot;signInSuccess&quot;);" />
+          <node column0="(184,17) connections.AddListener(&quot;USER_SIGNED_UP&quot;, &quot;signUpSuccess&quot;);" />
+          <node column0="(185,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(186,17) connections.AddListener(&quot;LAUNCH_SIGN_IN&quot;, &quot;signIn&quot;);" />
+          <node column0="(187,17) connections.AddListener(&quot;LAUNCH_SIGN_UP&quot;, &quot;signUp&quot;);" />
+          <node column0="(188,17) connections.AddListener(&quot;SAVE_LISTING&quot;, &quot;saveListing&quot;);" />
+          <node column0="(189,17) connections.AddListener(&quot;SAVE_SEARCH&quot;, &quot;saveSearch&quot;);    " />
+          <node column0="(190,17) connections.AddListener(&quot;RECENT_USER_ACT_LAUNCH_SIGN_IN&quot;, &quot;signInfrmRecentUserActivity&quot;);" />
+          <node column0="(191,17) connections.AddListener(&quot;RECENT_USER_ACT_LAUNCH_SIGN_UP&quot;, &quot;signUpfrmRecentUserActivity&quot;);" />
+          <node column0="(231,17) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;updatePredictiveText&quot;);" />
+          <node column0="(232,17) connections.AddListener(&quot;CLOSE_PREDICTIVE_TEXT&quot;, &quot;animateClosed&quot;);" />
+          <node column0="(233,17) connections.AddListener(&quot;OPEN_PREDICTIVE_TEXT&quot;, &quot;openPredictiveText&quot;);" />
+          <node column0="(234,17) connections.AddListener(&quot;NAVIGATE_PREDICTIVE_TEXT&quot;, &quot;navigateInPredictiveTxt&quot;);" />
+          <node column0="(243,17) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;move&quot;);" />
+          <node column0="(244,17) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;expand&quot;);" />
+          <node column0="(263,21) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;move&quot;);" />
+          <node column0="(264,21) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;shrink&quot;);" />
+          <node column0="(284,25) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;, &quot;updateCount&quot;, &quot;JSON&quot;);" />
+          <node column0="(285,25) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;toggleSearchSaved&quot;);" />
+          <node column0="(289,25) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;updateByShowMapClick&quot;);" />
+          <node column0="(290,25) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;updateByShowListViewClick&quot;);" />
+          <node column0="(310,21) connections.AddListener(&quot;UPDATE_PROPERTY_SEARCH_CRITERIA&quot;, &quot;updateLocation&quot;);" />
+          <node column0="(311,21) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;);" />
+          <node column0="(334,33) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;);" />
+          <node column0="(335,33) connections.AddListener(&quot;LISTINGS_PAGE_CHANGED&quot;);" />
+          <node column0="(336,33) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;hide&quot;);" />
+          <node column0="(337,33) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;show&quot;);" />
+          <node column0="(350,33) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;show&quot;);" />
+          <node column0="(351,33) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;hide&quot;);" />
+          <node column0="(378,25) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;, &quot;updateConfig&quot;, &quot;JSON&quot;);" />
+          <node column0="(379,25) connections.AddListener(&quot;LISTINGS_PAGE_CHANGED&quot;, &quot;updateConfig&quot;, &quot;JSON&quot;);" />
+          <node column0="(393,25) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;, &quot;updateConfig&quot;, &quot;JSON&quot;);" />
+          <node column0="(428,17) connections.AddListener(&quot;USER_ACTIVITY&quot;, &quot;update&quot;);" />
+          <node column0="(429,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(430,17) connections.AddListener(&quot;RENDER_RECENTSEARCH&quot;, &quot;updateRecentUserSearches&quot;);" />
+          <node column0="(431,17) connections.AddListener(&quot;RENDER_RECENTLISTING&quot;, &quot;updateRecentUserListing&quot;);" />
+          <node column0="(432,17) connections.AddListener(&quot;ON_READY&quot;, &quot;setClientData&quot;);" />
+          <node column0="(443,17) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_FindAHome_Views_default_PDP_cshtml (24 items)">
+        <node column0="Execute():void (24 items)">
+          <node column0="(70,17) connections.AddListener(&quot;USER_SIGNED_IN&quot;, &quot;signInSuccess&quot;);" />
+          <node column0="(71,17) connections.AddListener(&quot;USER_SIGNED_UP&quot;, &quot;signUpSuccess&quot;);" />
+          <node column0="(72,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(73,17) connections.AddListener(&quot;LAUNCH_SIGN_IN&quot;, &quot;signIn&quot;);" />
+          <node column0="(74,17) connections.AddListener(&quot;LAUNCH_SIGN_UP&quot;, &quot;signUp&quot;);" />
+          <node column0="(75,17) connections.AddListener(&quot;SAVE_LISTING&quot;, &quot;saveListing&quot;);" />
+          <node column0="(76,17) connections.AddListener(&quot;SAVE_SEARCH&quot;, &quot;saveSearch&quot;);" />
+          <node column0="(98,17) connections.AddListener(&quot;LAUNCH_FREE_MOVING_QUOTE&quot;, &quot;freeMovingQuote&quot;);" />
+          <node column0="(111,17) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;updatePredictiveText&quot;);" />
+          <node column0="(112,17) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;animateClosed&quot;);" />
+          <node column0="(113,17) connections.AddListener(&quot;OPEN_PREDICTIVE_TEXT&quot;, &quot;openPredictiveText&quot;);" />
+          <node column0="(114,17) connections.AddListener(&quot;NAVIGATE_PREDICTIVE_TEXT&quot;, &quot;navigateInPredictiveTxt&quot;);" />
+          <node column0="(129,17) connections.AddListener(&quot;CLOSE_DIDYOUMEAN&quot;, &quot;endSubmission&quot;);" />
+          <node column0="(131,17) connections.AddListener(&quot;SUBMIT_LOCATION&quot;, &quot;submitForm&quot;);" />
+          <node column0="(148,17) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;didYouMean&quot;);" />
+          <node column0="(149,17) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;close&quot;);" />
+          <node column0="(166,17) connections.AddListener(&quot;LOAD_MODAL&quot;, &quot;loadModal&quot;);" />
+          <node column0="(167,17) connections.AddListener(&quot;CLOSE_MODAL&quot;, &quot;closeModal&quot;);" />
+          <node column0="(168,17) connections.AddListener(&quot;RESIZE_MODAL&quot;, &quot;resizeModal&quot;);" />
+          <node column0="(177,17) connections.AddListener(&quot;SUBMIT_CAPTCHA&quot;, &quot;submit&quot;);" />
+          <node column0="(178,17) connections.AddListener(&quot;INIT_CAPTCHA&quot;, &quot;initCaptcha&quot;);" />
+          <node column0="(282,17) connections.AddListener(&quot;USER_ACTIVITY&quot;, &quot;update&quot;);" />
+          <node column0="(283,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(284,17) connections.AddListener(&quot;ON_READY&quot;, &quot;setClientData&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_FindAHome_Views_default_RentalSRP_cshtml (60 items)">
+        <node column0="Execute():void (60 items)">
+          <node column0="(19,17) connections.AddListener(&quot;LOAD_MODAL&quot;, &quot;loadModal&quot;);" />
+          <node column0="(20,17) connections.AddListener(&quot;CLOSE_MODAL&quot;, &quot;closeModal&quot;);" />
+          <node column0="(21,17) connections.AddListener(&quot;RESIZE_MODAL&quot;, &quot;resizeModal&quot;);" />
+          <node column0="(55,19) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;show&quot;);" />
+          <node column0="(56,19) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;hide&quot;);" />
+          <node column0="(79,25) connections.AddListener(&quot;CLOSE_DIDYOUMEAN&quot;, &quot;endSubmission&quot;);" />
+          <node column0="(81,25) connections.AddListener(&quot;SUBMIT_LOCATION&quot;, &quot;submitForm&quot;);" />
+          <node column0="(101,17) connections.AddListener(&quot;DO_A_PROPERTY_SEARCH&quot;, &quot;doSearch&quot;);" />
+          <node column0="(108,17) connections.AddListener(&quot;SAVE_RECENT_SEARCH&quot;, &quot;saveRecentSearches&quot;, &quot;JSON&quot;);" />
+          <node column0="(134,17) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;didYouMean&quot;);" />
+          <node column0="(135,17) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;close&quot;);" />
+          <node column0="(145,17) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;move&quot;);" />
+          <node column0="(146,17) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;shrink&quot;);" />
+          <node column0="(211,17) connections.AddListener(&quot;USER_SIGNED_IN&quot;, &quot;signInSuccess&quot;);" />
+          <node column0="(212,17) connections.AddListener(&quot;USER_SIGNED_UP&quot;, &quot;signUpSuccess&quot;);" />
+          <node column0="(213,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(214,17) connections.AddListener(&quot;LAUNCH_SIGN_IN&quot;, &quot;signIn&quot;);" />
+          <node column0="(215,17) connections.AddListener(&quot;LAUNCH_SIGN_UP&quot;, &quot;signUp&quot;);" />
+          <node column0="(216,17) connections.AddListener(&quot;SAVE_LISTING&quot;, &quot;saveListing&quot;);" />
+          <node column0="(217,17) connections.AddListener(&quot;REMOVE_LISTING&quot;, &quot;deleteListing&quot;);" />
+          <node column0="(218,17) connections.AddListener(&quot;SAVE_SEARCH&quot;, &quot;saveSearch&quot;);" />
+          <node column0="(219,17) connections.AddListener(&quot;REMOVE_SEARCH&quot;, &quot;deleteSearch&quot;);" />
+          <node column0="(220,17) connections.AddListener(&quot;RECENT_USER_ACT_LAUNCH_SIGN_IN&quot;, &quot;signInfrmRecentUserActivity&quot;);" />
+          <node column0="(221,17) connections.AddListener(&quot;RECENT_USER_ACT_LAUNCH_SIGN_UP&quot;, &quot;signUpfrmRecentUserActivity&quot;);" />
+          <node column0="(245,17) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;updatePredictiveText&quot;);" />
+          <node column0="(246,17) connections.AddListener(&quot;CLOSE_PREDICTIVE_TEXT&quot;, &quot;animateClosed&quot;);" />
+          <node column0="(247,17) connections.AddListener(&quot;OPEN_PREDICTIVE_TEXT&quot;, &quot;openPredictiveText&quot;);" />
+          <node column0="(248,17) connections.AddListener(&quot;NAVIGATE_PREDICTIVE_TEXT&quot;, &quot;navigateInPredictiveTxt&quot;);" />
+          <node column0="(262,17) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;move&quot;);" />
+          <node column0="(263,17) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;shrink&quot;);" />
+          <node column0="(283,21) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;, &quot;updateCount&quot;, &quot;JSON&quot;);" />
+          <node column0="(284,21) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;toggleSearchSaved&quot;);" />
+          <node column0="(285,21) connections.AddListener(&quot;USER_ACTIVITY&quot;, &quot;updateUserData&quot;);" />
+          <node column0="(288,21) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;updateByShowMapClick&quot;);" />
+          <node column0="(289,21) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;updateByShowListViewClick&quot;);" />
+          <node column0="(306,17) connections.AddListener(&quot;UPDATE_PROPERTY_SEARCH_CRITERIA&quot;, &quot;updateLocation&quot;);" />
+          <node column0="(307,17) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;);" />
+          <node column0="(328,29) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;);" />
+          <node column0="(329,29) connections.AddListener(&quot;LISTINGS_PAGE_CHANGED&quot;);" />
+          <node column0="(330,29) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;hide&quot;);" />
+          <node column0="(331,29) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;show&quot;);" />
+          <node column0="(353,29) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;);" />
+          <node column0="(354,29) connections.AddListener(&quot;LISTINGS_PAGE_CHANGED&quot;);" />
+          <node column0="(355,29) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;hide&quot;);" />
+          <node column0="(356,29) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;show&quot;);" />
+          <node column0="(375,29) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;);" />
+          <node column0="(376,29) connections.AddListener(&quot;LISTINGS_PAGE_CHANGED&quot;);" />
+          <node column0="(377,29) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;show&quot;);" />
+          <node column0="(378,29) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;show&quot;);" />
+          <node column0="(396,29) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;show&quot;);" />
+          <node column0="(397,29) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;hide&quot;);" />
+          <node column0="(423,29) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;, &quot;updateConfig&quot;, &quot;JSON&quot;);" />
+          <node column0="(424,29) connections.AddListener(&quot;LISTINGS_PAGE_CHANGED&quot;, &quot;updateConfig&quot;, &quot;JSON&quot;);" />
+          <node column0="(440,29) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;, &quot;updateConfig&quot;, &quot;JSON&quot;);" />
+          <node column0="(488,21) connections.AddListener(&quot;USER_ACTIVITY&quot;,&quot;update&quot;);" />
+          <node column0="(489,21) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(490,21) connections.AddListener(&quot;RENDER_RECENTSEARCH&quot;, &quot;updateRecentUserSearches&quot;);" />
+          <node column0="(491,21) connections.AddListener(&quot;RENDER_RECENTLISTING&quot;, &quot;updateRecentUserListing&quot;);" />
+          <node column0="(492,21) connections.AddListener(&quot;ON_READY&quot;, &quot;setClientData&quot;);" />
+          <node column0="(503,17) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_FindAHome_Views_default_RentalState_cshtml (18 items)">
+        <node column0="Execute():void (18 items)">
+          <node column0="(64,17) connections.AddListener(&quot;USER_SIGNED_IN&quot;, &quot;signInSuccess&quot;);" />
+          <node column0="(65,17) connections.AddListener(&quot;USER_SIGNED_UP&quot;, &quot;signUpSuccess&quot;);" />
+          <node column0="(66,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(67,17) connections.AddListener(&quot;LAUNCH_SIGN_IN&quot;, &quot;signIn&quot;);" />
+          <node column0="(68,17) connections.AddListener(&quot;LAUNCH_SIGN_UP&quot;, &quot;signUp&quot;);" />
+          <node column0="(69,17) connections.AddListener(&quot;SAVE_LISTING&quot;, &quot;saveListing&quot;);" />
+          <node column0="(70,17) connections.AddListener(&quot;SAVE_SEARCH&quot;, &quot;saveSearch&quot;);" />
+          <node column0="(89,17) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;updatePredictiveText&quot;);" />
+          <node column0="(90,17) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;animateClosed&quot;);" />
+          <node column0="(91,17) connections.AddListener(&quot;OPEN_PREDICTIVE_TEXT&quot;, &quot;openPredictiveText&quot;);" />
+          <node column0="(92,17) connections.AddListener(&quot;NAVIGATE_PREDICTIVE_TEXT&quot;, &quot;navigateInPredictiveTxt&quot;);" />
+          <node column0="(107,17) connections.AddListener(&quot;CLOSE_DIDYOUMEAN&quot;, &quot;endSubmission&quot;);" />
+          <node column0="(109,17) connections.AddListener(&quot;SUBMIT_LOCATION&quot;, &quot;submitForm&quot;);" />
+          <node column0="(126,17) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;didYouMean&quot;);" />
+          <node column0="(127,17) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;close&quot;);" />
+          <node column0="(144,17) connections.AddListener(&quot;LOAD_MODAL&quot;, &quot;loadModal&quot;);" />
+          <node column0="(145,17) connections.AddListener(&quot;CLOSE_MODAL&quot;, &quot;closeModal&quot;);" />
+          <node column0="(146,17) connections.AddListener(&quot;RESIZE_MODAL&quot;, &quot;resizeModal&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_FindAHome_Views_default_StateLandingPage_cshtml (21 items)">
+        <node column0="Execute():void (21 items)">
+          <node column0="(72,17) connections.AddListener(&quot;USER_SIGNED_IN&quot;, &quot;signInSuccess&quot;);" />
+          <node column0="(73,17) connections.AddListener(&quot;USER_SIGNED_UP&quot;, &quot;signUpSuccess&quot;);" />
+          <node column0="(74,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(75,17) connections.AddListener(&quot;LAUNCH_SIGN_IN&quot;, &quot;signIn&quot;);" />
+          <node column0="(76,17) connections.AddListener(&quot;LAUNCH_SIGN_UP&quot;, &quot;signUp&quot;);" />
+          <node column0="(77,17) connections.AddListener(&quot;SAVE_LISTING&quot;, &quot;saveListing&quot;);" />
+          <node column0="(78,17) connections.AddListener(&quot;SAVE_SEARCH&quot;, &quot;saveSearch&quot;);" />
+          <node column0="(97,17) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;updatePredictiveText&quot;);" />
+          <node column0="(98,17) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;animateClosed&quot;);" />
+          <node column0="(99,17) connections.AddListener(&quot;OPEN_PREDICTIVE_TEXT&quot;, &quot;openPredictiveText&quot;);" />
+          <node column0="(100,17) connections.AddListener(&quot;NAVIGATE_PREDICTIVE_TEXT&quot;, &quot;navigateInPredictiveTxt&quot;);" />
+          <node column0="(115,17) connections.AddListener(&quot;CLOSE_DIDYOUMEAN&quot;, &quot;endSubmission&quot;);" />
+          <node column0="(117,17) connections.AddListener(&quot;SUBMIT_LOCATION&quot;, &quot;submitForm&quot;);" />
+          <node column0="(134,17) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;didYouMean&quot;);" />
+          <node column0="(135,17) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;close&quot;);" />
+          <node column0="(152,17) connections.AddListener(&quot;LOAD_MODAL&quot;, &quot;loadModal&quot;);" />
+          <node column0="(153,17) connections.AddListener(&quot;CLOSE_MODAL&quot;, &quot;closeModal&quot;);" />
+          <node column0="(154,17) connections.AddListener(&quot;RESIZE_MODAL&quot;, &quot;resizeModal&quot;);" />
+          <node column0="(252,29) connections.AddListener(&quot;CLOSE_DIDYOUMEAN&quot;, &quot;endSubmission&quot;);" />
+          <node column0="(253,29) connections.AddListener(&quot;SUBMIT_LOCATION&quot;, &quot;submitLocation&quot;);" />
+          <node column0="(254,29) connections.AddListener(&quot;CHANGE_ADVANCE_SEARCH_CONDITION&quot;, &quot;updateAdvSearchCriteria&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_HomePage_Views_HomePage_ForeclosureLanding_cshtml (38 items)">
+        <node column0="Execute():void (38 items)">
+          <node column0="(71,17) connections.AddListener(&quot;USER_SIGNED_IN&quot;, &quot;signInSuccess&quot;);" />
+          <node column0="(72,17) connections.AddListener(&quot;USER_SIGNED_UP&quot;, &quot;signUpSuccess&quot;);" />
+          <node column0="(73,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(74,17) connections.AddListener(&quot;LAUNCH_SIGN_IN&quot;, &quot;signIn&quot;);" />
+          <node column0="(75,17) connections.AddListener(&quot;LAUNCH_SIGN_UP&quot;, &quot;signUp&quot;);" />
+          <node column0="(76,17) connections.AddListener(&quot;SAVE_LISTING&quot;, &quot;saveListing&quot;);" />
+          <node column0="(77,17) connections.AddListener(&quot;REMOVE_LISTING&quot;, &quot;deleteListing&quot;);" />
+          <node column0="(78,17) connections.AddListener(&quot;SAVE_SEARCH&quot;, &quot;saveSearch&quot;);" />
+          <node column0="(79,17) connections.AddListener(&quot;REMOVE_SEARCH&quot;, &quot;deleteSearch&quot;);" />
+          <node column0="(80,17) connections.AddListener(&quot;RECENT_USER_ACT_LAUNCH_SIGN_IN&quot;, &quot;signInfrmRecentUserActivity&quot;);" />
+          <node column0="(81,17) connections.AddListener(&quot;RECENT_USER_ACT_LAUNCH_SIGN_UP&quot;, &quot;signUpfrmRecentUserActivity&quot;);" />
+          <node column0="(108,25) connections.AddListener(&quot;CLOSE_DIDYOUMEAN&quot;, &quot;endSubmission&quot;);" />
+          <node column0="(201,13) connections.AddListener(&quot;CLOSE_DIDYOUMEAN&quot;, &quot;endSubmission&quot;);" />
+          <node column0="(202,13) connections.AddListener(&quot;SUBMIT_LOCATION&quot;, &quot;submitLocation&quot;);" />
+          <node column0="(203,13) connections.AddListener(&quot;CHANGE_ADVANCE_SEARCH_CONDITION&quot;, &quot;updateAdvSearchCriteria&quot;);" />
+          <node column0="(223,13) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;updatePredictiveText&quot;);" />
+          <node column0="(224,13) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;animateClosed&quot;);" />
+          <node column0="(225,13) connections.AddListener(&quot;OPEN_PREDICTIVE_TEXT&quot;, &quot;openPredictiveText&quot;);" />
+          <node column0="(226,13) connections.AddListener(&quot;NAVIGATE_PREDICTIVE_TEXT&quot;, &quot;navigateInPredictiveTxt&quot;);" />
+          <node column0="(227,13) connections.AddListener(&quot;CLOSE_PREDICTIVE_TEXT&quot;, &quot;closePredictiveText&quot;);" />
+          <node column0="(239,13) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;didYouMean&quot;);" />
+          <node column0="(240,13) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;close&quot;);" />
+          <node column0="(257,13) connections.AddListener(&quot;LOAD_MODAL&quot;, &quot;loadModal&quot;);" />
+          <node column0="(258,13) connections.AddListener(&quot;CLOSE_MODAL&quot;, &quot;closeModal&quot;);" />
+          <node column0="(259,13) connections.AddListener(&quot;RESIZE_MODAL&quot;, &quot;resizeModal&quot;);" />
+          <node column0="(483,29) connections.AddListener(&quot;USER_ACTIVITY&quot;, &quot;updateUserData&quot;);" />
+          <node column0="(484,29) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(485,29) connections.AddListener(&quot;NEWAPI_LISTING_SAVED&quot;, &quot;newApiListingSaved&quot;);" />
+          <node column0="(486,29) connections.AddListener(&quot;NEWAPI_LISTING_REMOVED&quot;, &quot;newApiListingRemoved&quot;);" />
+          <node column0="(487,29) connections.AddListener(&quot;SIGN_OUT&quot;, &quot;onSignOut&quot;);" />
+          <node column0="(488,29) connections.AddListener(&quot;ON_LOAD_COMPLETE&quot;, &quot;initRecentItems&quot;);" />
+          <node column0="(570,29) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;);" />
+          <node column0="(571,29) connections.AddListener(&quot;LISTINGS_PAGE_CHANGED&quot;);" />
+          <node column0="(638,21) connections.AddListener(&quot;USER_ACTIVITY&quot;,&quot;update&quot;);" />
+          <node column0="(639,21) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(640,21) connections.AddListener(&quot;RENDER_RECENTSEARCH&quot;, &quot;updateRecentUserSearches&quot;);" />
+          <node column0="(641,21) connections.AddListener(&quot;RENDER_RECENTLISTING&quot;, &quot;updateRecentUserListing&quot;);" />
+          <node column0="(642,21) connections.AddListener(&quot;ON_READY&quot;, &quot;setClientData&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_HomePage_Views_HomePage_HomePage_cshtml (26 items)">
+        <node column0="Execute():void (26 items)">
+          <node column0="(64,17) connections.AddListener(&quot;USER_SIGNED_IN&quot;, &quot;signInSuccess&quot;);" />
+          <node column0="(65,17) connections.AddListener(&quot;USER_SIGNED_UP&quot;, &quot;signUpSuccess&quot;);" />
+          <node column0="(66,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(67,17) connections.AddListener(&quot;LAUNCH_SIGN_IN&quot;, &quot;signIn&quot;);" />
+          <node column0="(68,17) connections.AddListener(&quot;RECENT_USER_ACT_LAUNCH_SIGN_IN&quot;, &quot;signInfrmRecentUserActivity&quot;);" />
+          <node column0="(69,17) connections.AddListener(&quot;RECENT_USER_ACT_LAUNCH_SIGN_UP&quot;, &quot;signUpfrmRecentUserActivity&quot;);" />
+          <node column0="(71,17) connections.AddListener(&quot;LAUNCH_SIGN_UP&quot;, &quot;signUp&quot;);" />
+          <node column0="(72,17) connections.AddListener(&quot;SAVE_LISTING&quot;, &quot;saveListing&quot;);" />
+          <node column0="(73,17) connections.AddListener(&quot;SAVE_SEARCH&quot;, &quot;saveSearch&quot;);" />
+          <node column0="(119,41) connections.AddListener(&quot;CLOSE_DIDYOUMEAN&quot;, &quot;endSubmission&quot;);" />
+          <node column0="(120,41) connections.AddListener(&quot;SUBMIT_LOCATION&quot;, &quot;submitLocation&quot;);" />
+          <node column0="(151,37) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;updatePredictiveText&quot;);" />
+          <node column0="(152,37) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;animateClosed&quot;);" />
+          <node column0="(153,37) connections.AddListener(&quot;OPEN_PREDICTIVE_TEXT&quot;, &quot;openPredictiveText&quot;);" />
+          <node column0="(154,37) connections.AddListener(&quot;NAVIGATE_PREDICTIVE_TEXT&quot;, &quot;navigateInPredictiveTxt&quot;);" />
+          <node column0="(155,37) connections.AddListener(&quot;CLOSE_PREDICTIVE_TEXT&quot;, &quot;closePredictiveText&quot;);" />
+          <node column0="(167,37) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;didYouMean&quot;);" />
+          <node column0="(168,37) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;close&quot;);" />
+          <node column0="(185,37) connections.AddListener(&quot;LOAD_MODAL&quot;, &quot;loadModal&quot;);" />
+          <node column0="(186,37) connections.AddListener(&quot;CLOSE_MODAL&quot;, &quot;closeModal&quot;);" />
+          <node column0="(187,37) connections.AddListener(&quot;RESIZE_MODAL&quot;, &quot;resizeModal&quot;);" />
+          <node column0="(405,17) connections.AddListener(&quot;USER_ACTIVITY&quot;, &quot;update&quot;);" />
+          <node column0="(406,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(407,17) connections.AddListener(&quot;RENDER_RECENTSEARCH&quot;, &quot;updateRecentUserSearches&quot;);" />
+          <node column0="(408,17) connections.AddListener(&quot;RENDER_RECENTLISTING&quot;, &quot;updateRecentUserListing&quot;);" />
+          <node column0="(409,17) connections.AddListener(&quot;ON_READY&quot;, &quot;setClientData&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_HomePage_Views_HomePage_Index_cshtml (16 items)">
+        <node column0="Execute():void (16 items)">
+          <node column0="(103,25) connections.AddListener(&quot;CLOSE_DIDYOUMEAN&quot;, &quot;endSubmission&quot;);" />
+          <node column0="(104,25) connections.AddListener(&quot;SUBMIT_LOCATION&quot;, &quot;submitLocation&quot;);" />
+          <node column0="(106,25) connections.AddListener(&quot;CHANGE_ADVANCE_SEARCH_CONDITION&quot;, &quot;updateAdvSearchCriteria&quot;);" />
+          <node column0="(189,25) connections.AddListener(&quot;USER_SIGNED_IN&quot;, &quot;signInSuccess&quot;);" />
+          <node column0="(190,25) connections.AddListener(&quot;USER_SIGNED_UP&quot;, &quot;signUpSuccess&quot;);" />
+          <node column0="(191,25) connections.AddListener(&quot;LAUNCH_SIGN_IN&quot;, &quot;signIn&quot;);" />
+          <node column0="(192,25) connections.AddListener(&quot;LAUNCH_SIGN_UP&quot;, &quot;signUp&quot;);" />
+          <node column0="(213,25) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;updatePredictiveText&quot;);" />
+          <node column0="(215,25) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;animateClosed&quot;);" />
+          <node column0="(216,25) connections.AddListener(&quot;OPEN_PREDICTIVE_TEXT&quot;, &quot;openPredictiveText&quot;);" />
+          <node column0="(217,25) connections.AddListener(&quot;NAVIGATE_PREDICTIVE_TEXT&quot;, &quot;navigateInPredictiveTxt&quot;);" />
+          <node column0="(230,25) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;didYouMean&quot;);" />
+          <node column0="(231,25) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;close&quot;);" />
+          <node column0="(251,17) connections.AddListener(&quot;LOAD_MODAL&quot;, &quot;loadModal&quot;);" />
+          <node column0="(252,17) connections.AddListener(&quot;CLOSE_MODAL&quot;, &quot;closeModal&quot;);" />
+          <node column0="(253,17) connections.AddListener(&quot;RESIZE_MODAL&quot;, &quot;resizeModal&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_HomePage_Views_HomePage_Landing_cshtml (39 items)">
+        <node column0="Execute():void (39 items)">
+          <node column0="(72,17) connections.AddListener(&quot;USER_SIGNED_IN&quot;, &quot;signInSuccess&quot;);" />
+          <node column0="(73,17) connections.AddListener(&quot;USER_SIGNED_UP&quot;, &quot;signUpSuccess&quot;);" />
+          <node column0="(74,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(75,17) connections.AddListener(&quot;LAUNCH_SIGN_IN&quot;, &quot;signIn&quot;);" />
+          <node column0="(76,17) connections.AddListener(&quot;RECENT_USER_ACT_LAUNCH_SIGN_IN&quot;, &quot;signInfrmRecentUserActivity&quot;);" />
+          <node column0="(77,17) connections.AddListener(&quot;RECENT_USER_ACT_LAUNCH_SIGN_UP&quot;, &quot;signUpfrmRecentUserActivity&quot;);" />
+          <node column0="(79,17) connections.AddListener(&quot;LAUNCH_SIGN_UP&quot;, &quot;signUp&quot;);" />
+          <node column0="(80,17) connections.AddListener(&quot;SAVE_LISTING&quot;, &quot;saveListing&quot;);" />
+          <node column0="(81,17) connections.AddListener(&quot;REMOVE_LISTING&quot;, &quot;deleteListing&quot;);" />
+          <node column0="(82,17) connections.AddListener(&quot;SAVE_SEARCH&quot;, &quot;saveSearch&quot;);" />
+          <node column0="(83,17) connections.AddListener(&quot;REMOVE_SEARCH&quot;, &quot;deleteSearch&quot;);" />
+          <node column0="(110,17) connections.AddListener(&quot;CLOSE_DIDYOUMEAN&quot;, &quot;endSubmission&quot;);" />
+          <node column0="(219,29) connections.AddListener(&quot;CLOSE_DIDYOUMEAN&quot;, &quot;endSubmission&quot;);" />
+          <node column0="(220,29) connections.AddListener(&quot;SUBMIT_LOCATION&quot;, &quot;submitLocation&quot;);" />
+          <node column0="(221,29) connections.AddListener(&quot;CHANGE_ADVANCE_SEARCH_CONDITION&quot;, &quot;updateAdvSearchCriteria&quot;);" />
+          <node column0="(240,29) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;updatePredictiveText&quot;);" />
+          <node column0="(241,29) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;animateClosed&quot;);" />
+          <node column0="(242,29) connections.AddListener(&quot;OPEN_PREDICTIVE_TEXT&quot;, &quot;openPredictiveText&quot;);" />
+          <node column0="(243,29) connections.AddListener(&quot;NAVIGATE_PREDICTIVE_TEXT&quot;, &quot;navigateInPredictiveTxt&quot;);" />
+          <node column0="(244,29) connections.AddListener(&quot;CLOSE_PREDICTIVE_TEXT&quot;, &quot;closePredictiveText&quot;);" />
+          <node column0="(256,29) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;didYouMean&quot;);" />
+          <node column0="(257,29) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;close&quot;);" />
+          <node column0="(274,29) connections.AddListener(&quot;LOAD_MODAL&quot;, &quot;loadModal&quot;);" />
+          <node column0="(275,29) connections.AddListener(&quot;CLOSE_MODAL&quot;, &quot;closeModal&quot;);" />
+          <node column0="(276,29) connections.AddListener(&quot;RESIZE_MODAL&quot;, &quot;resizeModal&quot;);" />
+          <node column0="(338,33) connections.AddListener(&quot;USER_SIGNED_IN&quot;, &quot;asyncLoadWidget&quot;);" />
+          <node column0="(522,29) connections.AddListener(&quot;USER_ACTIVITY&quot;, &quot;updateUserData&quot;);" />
+          <node column0="(523,29) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(524,29) connections.AddListener(&quot;NEWAPI_LISTING_SAVED&quot;, &quot;newApiListingSaved&quot;);" />
+          <node column0="(525,29) connections.AddListener(&quot;NEWAPI_LISTING_REMOVED&quot;, &quot;newApiListingRemoved&quot;);" />
+          <node column0="(526,29) connections.AddListener(&quot;SIGN_OUT&quot;, &quot;onSignOut&quot;);" />
+          <node column0="(527,29) connections.AddListener(&quot;ON_LOAD_COMPLETE&quot;, &quot;initRecentItems&quot;);" />
+          <node column0="(612,29) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;);" />
+          <node column0="(613,29) connections.AddListener(&quot;LISTINGS_PAGE_CHANGED&quot;);" />
+          <node column0="(714,17) connections.AddListener(&quot;USER_ACTIVITY&quot;, &quot;update&quot;);" />
+          <node column0="(715,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(716,17) connections.AddListener(&quot;RENDER_RECENTSEARCH&quot;, &quot;updateRecentUserSearches&quot;);" />
+          <node column0="(717,17) connections.AddListener(&quot;RENDER_RECENTLISTING&quot;, &quot;updateRecentUserListing&quot;);" />
+          <node column0="(718,17) connections.AddListener(&quot;ON_READY&quot;, &quot;setClientData&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_HomePage_Views_HomePage_NewHomesLanding_cshtml (38 items)">
+        <node column0="Execute():void (38 items)">
+          <node column0="(73,17) connections.AddListener(&quot;USER_SIGNED_IN&quot;, &quot;signInSuccess&quot;);" />
+          <node column0="(74,17) connections.AddListener(&quot;USER_SIGNED_UP&quot;, &quot;signUpSuccess&quot;);" />
+          <node column0="(75,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(76,17) connections.AddListener(&quot;LAUNCH_SIGN_IN&quot;, &quot;signIn&quot;);" />
+          <node column0="(77,17) connections.AddListener(&quot;RECENT_USER_ACT_LAUNCH_SIGN_IN&quot;, &quot;signInfrmRecentUserActivity&quot;);" />
+          <node column0="(78,17) connections.AddListener(&quot;RECENT_USER_ACT_LAUNCH_SIGN_UP&quot;, &quot;signUpfrmRecentUserActivity&quot;);" />
+          <node column0="(80,17) connections.AddListener(&quot;LAUNCH_SIGN_UP&quot;, &quot;signUp&quot;);" />
+          <node column0="(81,17) connections.AddListener(&quot;SAVE_LISTING&quot;, &quot;saveListing&quot;);" />
+          <node column0="(82,17) connections.AddListener(&quot;REMOVE_LISTING&quot;, &quot;deleteListing&quot;);" />
+          <node column0="(83,17) connections.AddListener(&quot;SAVE_SEARCH&quot;, &quot;saveSearch&quot;);" />
+          <node column0="(84,17) connections.AddListener(&quot;REMOVE_SEARCH&quot;, &quot;deleteSearch&quot;);" />
+          <node column0="(112,25) connections.AddListener(&quot;CLOSE_DIDYOUMEAN&quot;, &quot;endSubmission&quot;);" />
+          <node column0="(216,17) connections.AddListener(&quot;CLOSE_DIDYOUMEAN&quot;, &quot;endSubmission&quot;);" />
+          <node column0="(217,17) connections.AddListener(&quot;SUBMIT_LOCATION&quot;, &quot;submitLocation&quot;);" />
+          <node column0="(218,17) connections.AddListener(&quot;CHANGE_ADVANCE_SEARCH_CONDITION&quot;, &quot;updateAdvSearchCriteria&quot;);" />
+          <node column0="(237,17) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;updatePredictiveText&quot;);" />
+          <node column0="(238,17) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;animateClosed&quot;);" />
+          <node column0="(239,17) connections.AddListener(&quot;OPEN_PREDICTIVE_TEXT&quot;, &quot;openPredictiveText&quot;);" />
+          <node column0="(240,17) connections.AddListener(&quot;NAVIGATE_PREDICTIVE_TEXT&quot;, &quot;navigateInPredictiveTxt&quot;);" />
+          <node column0="(241,17) connections.AddListener(&quot;CLOSE_PREDICTIVE_TEXT&quot;, &quot;closePredictiveText&quot;);" />
+          <node column0="(253,17) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;didYouMean&quot;);" />
+          <node column0="(254,17) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;close&quot;);" />
+          <node column0="(273,17) connections.AddListener(&quot;LOAD_MODAL&quot;, &quot;loadModal&quot;);" />
+          <node column0="(274,17) connections.AddListener(&quot;CLOSE_MODAL&quot;, &quot;closeModal&quot;);" />
+          <node column0="(275,17) connections.AddListener(&quot;RESIZE_MODAL&quot;, &quot;resizeModal&quot;);" />
+          <node column0="(503,29) connections.AddListener(&quot;USER_ACTIVITY&quot;, &quot;updateUserData&quot;);" />
+          <node column0="(504,29) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(505,29) connections.AddListener(&quot;NEWAPI_LISTING_SAVED&quot;, &quot;newApiListingSaved&quot;);" />
+          <node column0="(506,29) connections.AddListener(&quot;NEWAPI_LISTING_REMOVED&quot;, &quot;newApiListingRemoved&quot;);" />
+          <node column0="(507,29) connections.AddListener(&quot;SIGN_OUT&quot;, &quot;onSignOut&quot;);" />
+          <node column0="(508,29) connections.AddListener(&quot;ON_LOAD_COMPLETE&quot;, &quot;initRecentItems&quot;);" />
+          <node column0="(602,29) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;);" />
+          <node column0="(603,29) connections.AddListener(&quot;LISTINGS_PAGE_CHANGED&quot;);" />
+          <node column0="(658,21) connections.AddListener(&quot;USER_ACTIVITY&quot;,&quot;update&quot;);" />
+          <node column0="(659,21) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(660,21) connections.AddListener(&quot;RENDER_RECENTSEARCH&quot;, &quot;updateRecentUserSearches&quot;);" />
+          <node column0="(661,21) connections.AddListener(&quot;RENDER_RECENTLISTING&quot;, &quot;updateRecentUserListing&quot;);" />
+          <node column0="(662,21) connections.AddListener(&quot;ON_READY&quot;, &quot;setClientData&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_HomePage_Views_HomePage_RentalLanding_cshtml (39 items)">
+        <node column0="Execute():void (39 items)">
+          <node column0="(71,17) connections.AddListener(&quot;USER_SIGNED_IN&quot;, &quot;signInSuccess&quot;);" />
+          <node column0="(72,17) connections.AddListener(&quot;USER_SIGNED_UP&quot;, &quot;signUpSuccess&quot;);" />
+          <node column0="(73,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(74,17) connections.AddListener(&quot;LAUNCH_SIGN_IN&quot;, &quot;signIn&quot;);" />
+          <node column0="(75,17) connections.AddListener(&quot;LAUNCH_SIGN_UP&quot;, &quot;signUp&quot;);" />
+          <node column0="(76,17) connections.AddListener(&quot;SAVE_LISTING&quot;, &quot;saveListing&quot;);" />
+          <node column0="(77,17) connections.AddListener(&quot;REMOVE_LISTING&quot;, &quot;deleteListing&quot;);" />
+          <node column0="(78,17) connections.AddListener(&quot;SAVE_SEARCH&quot;, &quot;saveSearch&quot;);" />
+          <node column0="(79,17) connections.AddListener(&quot;REMOVE_SEARCH&quot;, &quot;deleteSearch&quot;);" />
+          <node column0="(80,17) connections.AddListener(&quot;RECENT_USER_ACT_LAUNCH_SIGN_IN&quot;, &quot;signInfrmRecentUserActivity&quot;);" />
+          <node column0="(81,17) connections.AddListener(&quot;RECENT_USER_ACT_LAUNCH_SIGN_UP&quot;, &quot;signUpfrmRecentUserActivity&quot;);" />
+          <node column0="(109,17) connections.AddListener(&quot;CLOSE_DIDYOUMEAN&quot;, &quot;endSubmission&quot;);" />
+          <node column0="(203,29) connections.AddListener(&quot;CLOSE_DIDYOUMEAN&quot;, &quot;endSubmission&quot;);" />
+          <node column0="(204,29) connections.AddListener(&quot;SUBMIT_LOCATION&quot;, &quot;submitLocation&quot;);" />
+          <node column0="(205,29) connections.AddListener(&quot;CHANGE_ADVANCE_SEARCH_CONDITION&quot;, &quot;updateAdvSearchCriteria&quot;);" />
+          <node column0="(224,29) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;updatePredictiveText&quot;);" />
+          <node column0="(225,29) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;animateClosed&quot;);" />
+          <node column0="(226,29) connections.AddListener(&quot;OPEN_PREDICTIVE_TEXT&quot;, &quot;openPredictiveText&quot;);" />
+          <node column0="(227,29) connections.AddListener(&quot;NAVIGATE_PREDICTIVE_TEXT&quot;, &quot;navigateInPredictiveTxt&quot;);" />
+          <node column0="(228,29) connections.AddListener(&quot;CLOSE_PREDICTIVE_TEXT&quot;, &quot;closePredictiveText&quot;);" />
+          <node column0="(253,29) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;didYouMean&quot;);" />
+          <node column0="(254,29) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;close&quot;);" />
+          <node column0="(271,29) connections.AddListener(&quot;LOAD_MODAL&quot;, &quot;loadModal&quot;);" />
+          <node column0="(272,29) connections.AddListener(&quot;CLOSE_MODAL&quot;, &quot;closeModal&quot;);" />
+          <node column0="(273,29) connections.AddListener(&quot;RESIZE_MODAL&quot;, &quot;resizeModal&quot;);" />
+          <node column0="(297,29) connections.AddListener(&quot;USER_ACTIVITY&quot;, &quot;updateUserData&quot;);" />
+          <node column0="(298,29) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(299,29) connections.AddListener(&quot;NEWAPI_LISTING_SAVED&quot;, &quot;newApiListingSaved&quot;);" />
+          <node column0="(300,29) connections.AddListener(&quot;NEWAPI_LISTING_REMOVED&quot;, &quot;newApiListingRemoved&quot;);" />
+          <node column0="(301,29) connections.AddListener(&quot;SIGN_OUT&quot;, &quot;onSignOut&quot;);" />
+          <node column0="(302,29) connections.AddListener(&quot;ON_LOAD_COMPLETE&quot;, &quot;initRecentItems&quot;);" />
+          <node column0="(578,29) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;);" />
+          <node column0="(579,29) connections.AddListener(&quot;LISTINGS_PAGE_CHANGED&quot;);" />
+          <node column0="(614,29) connections.AddListener(&quot;LAUNCH_FREE_MOVING_QUOTE&quot;, &quot;freeMovingQuote&quot;);" />
+          <node column0="(675,17) connections.AddListener(&quot;USER_ACTIVITY&quot;, &quot;update&quot;);" />
+          <node column0="(676,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(677,17) connections.AddListener(&quot;RENDER_RECENTSEARCH&quot;, &quot;updateRecentUserSearches&quot;);" />
+          <node column0="(678,17) connections.AddListener(&quot;RENDER_RECENTLISTING&quot;, &quot;updateRecentUserListing&quot;);" />
+          <node column0="(679,17) connections.AddListener(&quot;ON_READY&quot;, &quot;setClientData&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_Miscellaneous_Views_Miscellaneous_MobileLanding_cshtml (30 items)">
+        <node column0="Execute():void (30 items)">
+          <node column0="(37,17) connections.AddListener(&quot;CLOSE_DIDYOUMEAN&quot;, &quot;endSubmission&quot;);" />
+          <node column0="(55,17) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;didYouMean&quot;);" />
+          <node column0="(56,17) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;close&quot;);" />
+          <node column0="(73,17) connections.AddListener(&quot;LOAD_MODAL&quot;, &quot;loadModal&quot;);" />
+          <node column0="(74,17) connections.AddListener(&quot;CLOSE_MODAL&quot;, &quot;closeModal&quot;);" />
+          <node column0="(75,17) connections.AddListener(&quot;RESIZE_MODAL&quot;, &quot;resizeModal&quot;);" />
+          <node column0="(87,20) connections.AddListener(&quot;UPDATE_PROPERTY_SEARCH_CRITERIA&quot;, &quot;updateLocation&quot;);" />
+          <node column0="(89,21) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;);" />
+          <node column0="(149,17) connections.AddListener(&quot;USER_SIGNED_IN&quot;, &quot;signInSuccess&quot;);" />
+          <node column0="(150,17) connections.AddListener(&quot;USER_SIGNED_UP&quot;, &quot;signUpSuccess&quot;);" />
+          <node column0="(151,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(152,17) connections.AddListener(&quot;LAUNCH_SIGN_IN&quot;, &quot;signIn&quot;);" />
+          <node column0="(153,17) connections.AddListener(&quot;LAUNCH_SIGN_UP&quot;, &quot;signUp&quot;);" />
+          <node column0="(154,17) connections.AddListener(&quot;SAVE_LISTING&quot;, &quot;saveListing&quot;);" />
+          <node column0="(155,17) connections.AddListener(&quot;SAVE_SEARCH&quot;, &quot;saveSearch&quot;);" />
+          <node column0="(156,17) connections.AddListener(&quot;RECENT_USER_ACT_LAUNCH_SIGN_IN&quot;, &quot;signInfrmRecentUserActivity&quot;);" />
+          <node column0="(157,17) connections.AddListener(&quot;RECENT_USER_ACT_LAUNCH_SIGN_UP&quot;, &quot;signUpfrmRecentUserActivity&quot;);" />
+          <node column0="(179,17) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;updatePredictiveText&quot;);" />
+          <node column0="(180,17) connections.AddListener(&quot;CLOSE_PREDICTIVE_TEXT&quot;, &quot;animateClosed&quot;);" />
+          <node column0="(181,17) connections.AddListener(&quot;OPEN_PREDICTIVE_TEXT&quot;, &quot;openPredictiveText&quot;);" />
+          <node column0="(182,17) connections.AddListener(&quot;NAVIGATE_PREDICTIVE_TEXT&quot;, &quot;navigateInPredictiveTxt&quot;);" />
+          <node column0="(197,29) connections.AddListener(&quot;USER_ACTIVITY&quot;, &quot;updateUserData&quot;);" />
+          <node column0="(198,29) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(199,29) connections.AddListener(&quot;NEWAPI_LISTING_SAVED&quot;, &quot;newApiListingSaved&quot;);" />
+          <node column0="(201,29) connections.AddListener(&quot;ON_LOAD_COMPLETE&quot;, &quot;initRecentItems&quot;);" />
+          <node column0="(219,17) connections.AddListener(&quot;USER_ACTIVITY&quot;, &quot;update&quot;);" />
+          <node column0="(220,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(221,17) connections.AddListener(&quot;RENDER_RECENTSEARCH&quot;, &quot;updateRecentUserSearches&quot;);" />
+          <node column0="(222,17) connections.AddListener(&quot;RENDER_RECENTLISTING&quot;, &quot;updateRecentUserListing&quot;);" />
+          <node column0="(223,17) connections.AddListener(&quot;ON_READY&quot;, &quot;setClientData&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_Miscellaneous_Views_Miscellaneous_RealEstateStatistics_cshtml (18 items)">
+        <node column0="Execute():void (18 items)">
+          <node column0="(88,17) connections.AddListener(&quot;USER_SIGNED_IN&quot;, &quot;signInSuccess&quot;);" />
+          <node column0="(89,17) connections.AddListener(&quot;USER_SIGNED_UP&quot;, &quot;signUpSuccess&quot;);" />
+          <node column0="(90,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(91,17) connections.AddListener(&quot;LAUNCH_SIGN_IN&quot;, &quot;signIn&quot;);" />
+          <node column0="(92,17) connections.AddListener(&quot;LAUNCH_SIGN_UP&quot;, &quot;signUp&quot;);" />
+          <node column0="(93,17) connections.AddListener(&quot;SAVE_LISTING&quot;, &quot;saveListing&quot;);" />
+          <node column0="(94,17) connections.AddListener(&quot;SAVE_SEARCH&quot;, &quot;saveSearch&quot;);" />
+          <node column0="(95,17) connections.AddListener(&quot;RECENT_USER_ACT_LAUNCH_SIGN_IN&quot;, &quot;signInfrmRecentUserActivity&quot;);" />
+          <node column0="(96,17) connections.AddListener(&quot;RECENT_USER_ACT_LAUNCH_SIGN_UP&quot;, &quot;signUpfrmRecentUserActivity&quot;);" />
+          <node column0="(122,17) connections.AddListener(&quot;CLOSE_DIDYOUMEAN&quot;, &quot;endSubmission&quot;);" />
+          <node column0="(140,17) connections.AddListener(&quot;LOAD_MODAL&quot;, &quot;loadModal&quot;);" />
+          <node column0="(141,17) connections.AddListener(&quot;CLOSE_MODAL&quot;, &quot;closeModal&quot;);" />
+          <node column0="(142,17) connections.AddListener(&quot;RESIZE_MODAL&quot;, &quot;resizeModal&quot;);" />
+          <node column0="(158,17) connections.AddListener(&quot;USER_ACTIVITY&quot;, &quot;updateUserData&quot;);" />
+          <node column0="(159,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(160,17) connections.AddListener(&quot;NEWAPI_LISTING_SAVED&quot;, &quot;newApiListingSaved&quot;);" />
+          <node column0="(161,17) connections.AddListener(&quot;SIGN_OUT&quot;, &quot;onSignOut&quot;);" />
+          <node column0="(162,17) connections.AddListener(&quot;ON_LOAD_COMPLETE&quot;, &quot;initRecentItems&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_Miscellaneous_Views_Miscellaneous_UserCaptcha_cshtml (24 items)">
+        <node column0="Execute():void (24 items)">
+          <node column0="(34,17) connections.AddListener(&quot;CLOSE_DIDYOUMEAN&quot;, &quot;endSubmission&quot;);" />
+          <node column0="(52,17) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;didYouMean&quot;);" />
+          <node column0="(53,17) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;close&quot;);" />
+          <node column0="(70,17) connections.AddListener(&quot;LOAD_MODAL&quot;, &quot;loadModal&quot;);" />
+          <node column0="(71,17) connections.AddListener(&quot;CLOSE_MODAL&quot;, &quot;closeModal&quot;);" />
+          <node column0="(72,17) connections.AddListener(&quot;RESIZE_MODAL&quot;, &quot;resizeModal&quot;);" />
+          <node column0="(141,17) connections.AddListener(&quot;USER_SIGNED_IN&quot;, &quot;signInSuccess&quot;);" />
+          <node column0="(142,17) connections.AddListener(&quot;USER_SIGNED_UP&quot;, &quot;signUpSuccess&quot;);" />
+          <node column0="(143,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(144,17) connections.AddListener(&quot;LAUNCH_SIGN_IN&quot;, &quot;signIn&quot;);" />
+          <node column0="(145,17) connections.AddListener(&quot;LAUNCH_SIGN_UP&quot;, &quot;signUp&quot;);" />
+          <node column0="(146,17) connections.AddListener(&quot;SAVE_LISTING&quot;, &quot;saveListing&quot;);" />
+          <node column0="(147,17) connections.AddListener(&quot;SAVE_SEARCH&quot;, &quot;saveSearch&quot;);" />
+          <node column0="(148,17) connections.AddListener(&quot;RECENT_USER_ACT_LAUNCH_SIGN_IN&quot;, &quot;signInfrmRecentUserActivity&quot;);" />
+          <node column0="(149,17) connections.AddListener(&quot;RECENT_USER_ACT_LAUNCH_SIGN_UP&quot;, &quot;signUpfrmRecentUserActivity&quot;);" />
+          <node column0="(171,17) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;updatePredictiveText&quot;);" />
+          <node column0="(172,17) connections.AddListener(&quot;CLOSE_PREDICTIVE_TEXT&quot;, &quot;animateClosed&quot;);" />
+          <node column0="(173,17) connections.AddListener(&quot;OPEN_PREDICTIVE_TEXT&quot;, &quot;openPredictiveText&quot;);" />
+          <node column0="(174,17) connections.AddListener(&quot;NAVIGATE_PREDICTIVE_TEXT&quot;, &quot;navigateInPredictiveTxt&quot;);" />
+          <node column0="(187,17) connections.AddListener(&quot;USER_ACTIVITY&quot;, &quot;update&quot;);" />
+          <node column0="(188,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(189,17) connections.AddListener(&quot;RENDER_RECENTSEARCH&quot;, &quot;updateRecentUserSearches&quot;);" />
+          <node column0="(190,17) connections.AddListener(&quot;RENDER_RECENTLISTING&quot;, &quot;updateRecentUserListing&quot;);" />
+          <node column0="(191,17) connections.AddListener(&quot;ON_READY&quot;, &quot;setClientData&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_Public_Views_ContentManagement_sitemap_cshtml (19 items)">
+        <node column0="Execute():void (19 items)">
+          <node column0="(72,17) connections.AddListener(&quot;USER_SIGNED_IN&quot;, &quot;signInSuccess&quot;);" />
+          <node column0="(73,17) connections.AddListener(&quot;USER_SIGNED_UP&quot;, &quot;signUpSuccess&quot;);" />
+          <node column0="(74,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(75,17) connections.AddListener(&quot;LAUNCH_SIGN_IN&quot;, &quot;signIn&quot;);" />
+          <node column0="(76,17) connections.AddListener(&quot;LAUNCH_SIGN_UP&quot;, &quot;signUp&quot;);" />
+          <node column0="(77,17) connections.AddListener(&quot;SAVE_LISTING&quot;, &quot;saveListing&quot;);" />
+          <node column0="(78,17) connections.AddListener(&quot;SAVE_SEARCH&quot;, &quot;saveSearch&quot;);" />
+          <node column0="(79,17) connections.AddListener(&quot;RECENT_USER_ACT_LAUNCH_SIGN_IN&quot;, &quot;signInfrmRecentUserActivity&quot;);" />
+          <node column0="(80,17) connections.AddListener(&quot;RECENT_USER_ACT_LAUNCH_SIGN_UP&quot;, &quot;signUpfrmRecentUserActivity&quot;);" />
+          <node column0="(103,17) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;updatePredictiveText&quot;);" />
+          <node column0="(104,17) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;animateClosed&quot;);" />
+          <node column0="(105,17) connections.AddListener(&quot;OPEN_PREDICTIVE_TEXT&quot;, &quot;openPredictiveText&quot;);" />
+          <node column0="(106,17) connections.AddListener(&quot;NAVIGATE_PREDICTIVE_TEXT&quot;, &quot;navigateInPredictiveTxt&quot;);" />
+          <node column0="(121,17) connections.AddListener(&quot;CLOSE_DIDYOUMEAN&quot;, &quot;endSubmission&quot;);" />
+          <node column0="(150,17) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;didYouMean&quot;);" />
+          <node column0="(151,17) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;close&quot;);" />
+          <node column0="(168,17) connections.AddListener(&quot;LOAD_MODAL&quot;, &quot;loadModal&quot;);" />
+          <node column0="(169,17) connections.AddListener(&quot;CLOSE_MODAL&quot;, &quot;closeModal&quot;);" />
+          <node column0="(170,17) connections.AddListener(&quot;RESIZE_MODAL&quot;, &quot;resizeModal&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_Public_Views_MapWidget_SrpView__SrpView_cshtml (10 items)">
+        <node column0="Execute():void (10 items)">
+          <node column0="(6,21) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;move&quot;);" />
+          <node column0="(7,21) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;expand&quot;);" />
+          <node column0="(34,21) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;updateByShowMapClick&quot;);" />
+          <node column0="(35,21) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;updateByShowListViewClick&quot;);" />
+          <node column0="(38,21) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;, &quot;updateCount&quot;, &quot;JSON&quot;);" />
+          <node column0="(39,21) connections.AddListener(&quot;DID_MAP_CHANGE&quot;, &quot;updateCount&quot;, &quot;JSON&quot;);" />
+          <node column0="(40,21) connections.AddListener(&quot;CHANGE_VIEW&quot;, &quot;changeView&quot;, &quot;JSON&quot;);" />
+          <node column0="(41,21) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;toggleSearchSaved&quot;);" />
+          <node column0="(60,21) connections.AddListener(&quot;UPDATE_PROPERTY_SEARCH_CRITERIA&quot;, &quot;updateLocation&quot;);" />
+          <node column0="(61,21) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_Public_Views_Map_MapView__MapView_cshtml (2 items)">
+        <node column0="Execute():void (2 items)">
+          <node column0="(9,17) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;move&quot;);" />
+          <node column0="(10,17) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;expand&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_Public_Views_PropertyDetail_PropertyInfo__EmbeddedPhotoGalleryB_cshtml (1 item)">
+        <node column0="Execute():void (1 item)">
+          <node column0="(127,25) connections.AddListener(&quot;LAUNCH_PHOTO_GALLERY&quot;, &quot;photoGallery&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_Public_Views_PropertyDetail_PropertyInfo__EmbeddedPhotoGallery_cshtml (1 item)">
+        <node column0="Execute():void (1 item)">
+          <node column0="(45,25) connections.AddListener(&quot;LAUNCH_PHOTO_GALLERY&quot;, &quot;photoGallery&quot;);Html.RenderAction(&quot;PhotoGalleryWidget&quot;, &quot;Modal&quot;, new" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_Public_Views_PropertyDetail_PropertyInfo__MetaDataB_cshtml (1 item)">
+        <node column0="Execute():void (1 item)">
+          <node column0="(161,33) connections.AddListener(&quot;SAVED_MORTGAGE&quot;, &quot;updateSavedDetails&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_Public_Views_PropertyDetail_PropertyInfo__MetaData_cshtml (1 item)">
+        <node column0="Execute():void (1 item)">
+          <node column0="(210,33) connections.AddListener(&quot;SAVED_MORTGAGE&quot;, &quot;updateSavedDetails&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_Public_Views_PropertyDetail_PropertyInfo__PropertyInfoB_cshtml (4 items)">
+        <node column0="Execute():void (4 items)">
+          <node column0="(108,21) connections.AddListener(&quot;LISTING_SAVED&quot;, &quot;listingSaved&quot;);" />
+          <node column0="(109,21) connections.AddListener(&quot;NEWAPI_LISTING_SAVED&quot;, &quot;newApiListingSaved&quot;);" />
+          <node column0="(110,21) connections.AddListener(&quot;NEWAPI_LISTING_REMOVED&quot;, &quot;newApiListingRemoved&quot;);" />
+          <node column0="(111,21) connections.AddListener(&quot;USER_ACTIVITY&quot;, &quot;onUserActivity&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_Public_Views_PropertyDetail_PropertyInfo__PropertyInfo_cshtml (4 items)">
+        <node column0="Execute():void (4 items)">
+          <node column0="(92,21) connections.AddListener(&quot;LISTING_SAVED&quot;, &quot;listingSaved&quot;);" />
+          <node column0="(93,21) connections.AddListener(&quot;NEWAPI_LISTING_SAVED&quot;, &quot;newApiListingSaved&quot;);" />
+          <node column0="(94,21) connections.AddListener(&quot;NEWAPI_LISTING_REMOVED&quot;, &quot;newApiListingRemoved&quot;);" />
+          <node column0="(95,21) connections.AddListener(&quot;USER_ACTIVITY&quot;, &quot;onUserActivity&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_Public_Views_PropertyDetail_TabDetails_Overview__OverviewContent_cshtml (2 items)">
+        <node column0="Execute():void (2 items)">
+          <node column0="(82,17) connections.AddListener(&quot;LISTING_SAVED&quot;, &quot;listingSaved&quot;);" />
+          <node column0="(255,18) connections.AddListener(&quot;SAVE_LISTING&quot;, &quot;saveListing&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_Public_Views_PropertyDetail_TabDetails_SchoolAndNeighborhood__SchoolsAndNeighborhood_cshtml (1 item)">
+        <node column0="Execute():void (1 item)">
+          <node column0="(17,33) neighborhoodConnections.AddListener(&quot;SHOW_TAB_DETAILS&quot;, &quot;showSchoolsTab&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_Public_Views_PropertyDetail_TabDetails__TabDetails_cshtml (4 items)">
+        <node column0="Execute():void (4 items)">
+          <node column0="(47,25) connections.AddListener(&quot;SHOW_TAB_DETAILS&quot;, &quot;showPhotoTab&quot;);" />
+          <node column0="(65,47) SchoolsAndNeighborhoodConnections.AddListener(&quot;SHOW_TAB_DETAILS&quot;, &quot;showSchoolsTab&quot;);" />
+          <node column0="(86,36) PropertyHistoryConnections.AddListener(&quot;SHOW_TAB_DETAILS&quot;, &quot;showHistoryTab&quot;);" />
+          <node column0="(115,32) mortgageTabConnections.AddListener(&quot;SHOW_TAB_DETAILS&quot;, &quot;showMortgageTab&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_Public_Views_PropertyDetail__MainColumn_cshtml (5 items)">
+        <node column0="Execute():void (5 items)">
+          <node column0="(40,17) connections.AddListener(&quot;MOVECORE_WIDGETS_LOADED&quot;, &quot;movecoreWidgetsLoaded&quot;);" />
+          <node column0="(55,17) connections.AddListener(&quot;LISTING_SAVED&quot;, &quot;listingSaved&quot;);" />
+          <node column0="(56,17) connections.AddListener(&quot;NEWAPI_LISTING_SAVED&quot;, &quot;newApiListingSaved&quot;);" />
+          <node column0="(57,17) connections.AddListener(&quot;NEWAPI_LISTING_REMOVED&quot;, &quot;newApiListingRemoved&quot;);" />
+          <node column0="(58,17) connections.AddListener(&quot;USER_ACTIVITY&quot;, &quot;onUserActivity&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_Public_Views_PropertyDetail__SideColumn_cshtml (13 items)">
+        <node column0="Execute():void (13 items)">
+          <node column0="(41,21) connections.AddListener(&quot;LISTING_SAVED&quot;, &quot;listingSaved&quot;);" />
+          <node column0="(42,21) connections.AddListener(&quot;NEWAPI_LISTING_SAVED&quot;, &quot;newApiListingSaved&quot;);" />
+          <node column0="(43,21) connections.AddListener(&quot;NEWAPI_LISTING_REMOVED&quot;, &quot;newApiListingRemoved&quot;);" />
+          <node column0="(44,21) connections.AddListener(&quot;USER_ACTIVITY&quot;, &quot;onUserActivity&quot;);" />
+          <node column0="(83,29) connections.AddListener(&quot;LISTING_SAVED&quot;, &quot;listingSaved&quot;);" />
+          <node column0="(84,29) connections.AddListener(&quot;NEWAPI_LISTING_SAVED&quot;, &quot;newApiListingSaved&quot;);" />
+          <node column0="(85,29) connections.AddListener(&quot;NEWAPI_LISTING_REMOVED&quot;, &quot;newApiListingRemoved&quot;);" />
+          <node column0="(86,29) connections.AddListener(&quot;USER_ACTIVITY&quot;, &quot;onUserActivity&quot;);" />
+          <node column0="(124,29) connections.AddListener(&quot;LISTING_SAVED&quot;, &quot;listingSaved&quot;);" />
+          <node column0="(125,29) connections.AddListener(&quot;NEWAPI_LISTING_SAVED&quot;, &quot;newApiListingSaved&quot;);" />
+          <node column0="(126,29) connections.AddListener(&quot;NEWAPI_LISTING_REMOVED&quot;, &quot;newApiListingRemoved&quot;);" />
+          <node column0="(127,29) connections.AddListener(&quot;USER_ACTIVITY&quot;, &quot;onUserActivity&quot;);" />
+          <node column0="(238,21) connections.AddListener(&quot;USER_SIGNED_IN&quot;, &quot;asyncLoadWidget&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_Public_Views_PropertyPrint_PrintLDPBrochure_cshtml (1 item)">
+        <node column0="Execute():void (1 item)">
+          <node column0="(240,32) PropertyHistoryConnections.AddListener(&quot;SHOW_TAB_DETAILS&quot;, &quot;showHistoryTab&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_Public_Views_ScamMessaging_ScamWarningFullMessage_cshtml (23 items)">
+        <node column0="Execute():void (23 items)">
+          <node column0="(72,17) connections.AddListener(&quot;USER_SIGNED_IN&quot;, &quot;signInSuccess&quot;);" />
+          <node column0="(73,17) connections.AddListener(&quot;USER_SIGNED_UP&quot;, &quot;signUpSuccess&quot;);" />
+          <node column0="(74,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(75,17) connections.AddListener(&quot;LAUNCH_SIGN_IN&quot;, &quot;signIn&quot;);" />
+          <node column0="(76,17) connections.AddListener(&quot;LAUNCH_SIGN_UP&quot;, &quot;signUp&quot;);" />
+          <node column0="(77,17) connections.AddListener(&quot;SAVE_LISTING&quot;, &quot;saveListing&quot;);" />
+          <node column0="(78,17) connections.AddListener(&quot;SAVE_SEARCH&quot;, &quot;saveSearch&quot;);" />
+          <node column0="(101,17) connections.AddListener(&quot;LAUNCH_FREE_MOVING_QUOTE&quot;, &quot;freeMovingQuote&quot;);" />
+          <node column0="(115,17) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;updatePredictiveText&quot;);" />
+          <node column0="(116,17) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;animateClosed&quot;);" />
+          <node column0="(117,17) connections.AddListener(&quot;OPEN_PREDICTIVE_TEXT&quot;, &quot;openPredictiveText&quot;);" />
+          <node column0="(118,17) connections.AddListener(&quot;NAVIGATE_PREDICTIVE_TEXT&quot;, &quot;navigateInPredictiveTxt&quot;);" />
+          <node column0="(133,17) connections.AddListener(&quot;CLOSE_DIDYOUMEAN&quot;, &quot;endSubmission&quot;);" />
+          <node column0="(151,17) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;didYouMean&quot;);" />
+          <node column0="(152,17) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;close&quot;);" />
+          <node column0="(169,17) connections.AddListener(&quot;LOAD_MODAL&quot;, &quot;loadModal&quot;);" />
+          <node column0="(170,17) connections.AddListener(&quot;CLOSE_MODAL&quot;, &quot;closeModal&quot;);" />
+          <node column0="(171,17) connections.AddListener(&quot;RESIZE_MODAL&quot;, &quot;resizeModal&quot;);" />
+          <node column0="(180,17) connections.AddListener(&quot;SUBMIT_CAPTCHA&quot;, &quot;submit&quot;);" />
+          <node column0="(181,17) connections.AddListener(&quot;INIT_CAPTCHA&quot;, &quot;initCaptcha&quot;);" />
+          <node column0="(290,17) connections.AddListener(&quot;USER_ACTIVITY&quot;, &quot;update&quot;);" />
+          <node column0="(291,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(292,17) connections.AddListener(&quot;ON_READY&quot;, &quot;setClientData&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_Public_Views_Search_Facets__BSFacetPartial_cshtml (3 items)">
+        <node column0="Execute():void (3 items)">
+          <node column0="(26,17) connections.AddListener(&quot;USER_ACTIVITY&quot;, &quot;updateUserData&quot;);" />
+          <node column0="(27,17) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;toggleSearchSaved&quot;);" />
+          <node column0="(28,17) connections.AddListener(&quot;UPDATE_PROPERTY_SEARCH_CRITERIA&quot;, &quot;updateSearchCriteria&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_Public_Views_Search_Facets__FacetConceptAPartial_cshtml (1 item)">
+        <node column0="Execute():void (1 item)">
+          <node column0="(16,17) connections.AddListener(&quot;UPDATE_PROPERTY_SEARCH_CRITERIA&quot;, &quot;updateSearchCriteria&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_Public_Views_Search__MainColumn_cshtml (26 items)">
+        <node column0="Execute():void (26 items)">
+          <node column0="(20,17) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;show&quot;);" />
+          <node column0="(21,17) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;hide&quot;);" />
+          <node column0="(22,17) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;listingImpression&quot;);" />
+          <node column0="(23,17) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;);" />
+          <node column0="(83,17) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;); // updateUI" />
+          <node column0="(84,17) connections.AddListener(&quot;LISTINGS_PAGE_CHANGED&quot;);" />
+          <node column0="(85,17) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;hide&quot;);" />
+          <node column0="(86,17) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;show&quot;);" />
+          <node column0="(137,17) connections.AddListener(&quot;LISTING_SAVED&quot;, &quot;listingSaved&quot;);    " />
+          <node column0="(138,17) connections.AddListener(&quot;NEWAPI_LISTING_SAVED&quot;, &quot;newApiListingSaved&quot;);" />
+          <node column0="(139,17) connections.AddListener(&quot;NEWAPI_LISTING_REMOVED&quot;, &quot;newApiListingRemoved&quot;);" />
+          <node column0="(140,17) connections.AddListener(&quot;USER_ACTIVITY&quot;, &quot;onUserActivity&quot;);" />
+          <node column0="(142,17) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;, &quot;onFacetUserActivity&quot;);" />
+          <node column0="(143,17) connections.AddListener(&quot;LISTINGS_PAGE_CHANGED&quot;);" />
+          <node column0="(145,17) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;hide&quot;);" />
+          <node column0="(146,17) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;show&quot;);" />
+          <node column0="(167,17) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;);" />
+          <node column0="(168,17) connections.AddListener(&quot;LISTINGS_PAGE_CHANGED&quot;);" />
+          <node column0="(169,17) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;hide&quot;);" />
+          <node column0="(170,17) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;show&quot;);" />
+          <node column0="(218,17) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;);" />
+          <node column0="(219,17) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;listingImpression&quot;);" />
+          <node column0="(220,17) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;listingImpression&quot;);" />
+          <node column0="(250,25) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;);" />
+          <node column0="(273,17) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;show&quot;);" />
+          <node column0="(274,17) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;hide&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_Public_Views_Search__MainNewHomeColumn_cshtml (11 items)">
+        <node column0="Execute():void (11 items)">
+          <node column0="(19,17) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;);" />
+          <node column0="(20,17) connections.AddListener(&quot;LISTINGS_PAGE_CHANGED&quot;);" />
+          <node column0="(21,17) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;hide&quot;);" />
+          <node column0="(22,17) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;show&quot;);" />
+          <node column0="(74,17) connections.AddListener(&quot;LISTING_SAVED&quot;, &quot;listingSaved&quot;);" />
+          <node column0="(75,17) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;);" />
+          <node column0="(76,17) connections.AddListener(&quot;LISTINGS_PAGE_CHANGED&quot;);" />
+          <node column0="(77,17) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;hide&quot;);" />
+          <node column0="(78,17) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;show&quot;);" />
+          <node column0="(79,17) connections.AddListener(&quot;NEWAPI_LISTING_SAVED&quot;, &quot;newApiListingSaved&quot;);" />
+          <node column0="(80,17) connections.AddListener(&quot;USER_ACTIVITY&quot;, &quot;onUserActivity&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_Public_Views_Search__MainRentalColumn_cshtml (12 items)">
+        <node column0="Execute():void (12 items)">
+          <node column0="(13,17) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;);" />
+          <node column0="(14,17) connections.AddListener(&quot;LISTINGS_PAGE_CHANGED&quot;);" />
+          <node column0="(15,17) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;hide&quot;);" />
+          <node column0="(16,17) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;show&quot;);" />
+          <node column0="(68,17) connections.AddListener(&quot;LISTING_SAVED&quot;, &quot;listingSaved&quot;);" />
+          <node column0="(69,17) connections.AddListener(&quot;NEWAPI_LISTING_SAVED&quot;, &quot;newApiListingSaved&quot;);" />
+          <node column0="(70,17) connections.AddListener(&quot;NEWAPI_LISTING_REMOVED&quot;, &quot;newApiListingRemoved&quot;);" />
+          <node column0="(71,17) connections.AddListener(&quot;USER_ACTIVITY&quot;, &quot;onUserActivity&quot;);" />
+          <node column0="(73,17) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;,&quot;onFacetUserActivity&quot;);" />
+          <node column0="(74,17) connections.AddListener(&quot;LISTINGS_PAGE_CHANGED&quot;);" />
+          <node column0="(75,17) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;hide&quot;);" />
+          <node column0="(76,17) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;show&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Areas_Public_Views_Search__SideColumn_cshtml (14 items)">
+        <node column0="Execute():void (14 items)">
+          <node column0="(62,21) connections.AddListener(&quot;USER_ACTIVITY&quot;, &quot;updateUserData&quot;);" />
+          <node column0="(63,21) connections.AddListener(&quot;SEARCH_SAVED&quot;, &quot;saveSearchResponse&quot;);" />
+          <node column0="(64,21) connections.AddListener(&quot;SIGN_OUT&quot;, &quot;onSignOut&quot;);" />
+          <node column0="(65,21) connections.AddListener(&quot;ON_LOAD_COMPLETE&quot;, &quot;initRecentItems&quot;);" />
+          <node column0="(80,17) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;show&quot;);" />
+          <node column0="(81,17) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;hide&quot;);" />
+          <node column0="(82,17) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;);" />
+          <node column0="(205,29) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;);" />
+          <node column0="(227,17) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;show&quot;);" />
+          <node column0="(228,17) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;hide&quot;);" />
+          <node column0="(261,21) connections.AddListener(&quot;LAUNCH_FREE_MOVING_QUOTE&quot;, &quot;freeMovingQuote&quot;);" />
+          <node column0="(301,17) connections.AddListener(&quot;SHOW_LIST_VIEW&quot;, &quot;show&quot;);" />
+          <node column0="(302,17) connections.AddListener(&quot;SHOW_MAP&quot;, &quot;hide&quot;);" />
+          <node column0="(337,25) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Views_Layouts__Layout_cshtml (3 items)">
+        <node column0="Execute():void (3 items)">
+          <node column0="(300,22) connections.AddListener(&quot;DID_A_PROPERTY_SEARCH&quot;);" />
+          <node column0="(418,25) connections.AddListener(&quot;LOAD_MODAL&quot;, &quot;loadModal&quot;);" />
+          <node column0="(419,25) connections.AddListener(&quot;CLOSE_MODAL&quot;, &quot;closeModal&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Views_Utils_Noscript_cshtml (5 items)">
+        <node column0="Execute():void (5 items)">
+          <node column0="(67,13) connections.AddListener(&quot;USER_SIGNED_IN&quot;, &quot;signInSuccess&quot;);" />
+          <node column0="(68,13) connections.AddListener(&quot;USER_SIGNED_UP&quot;, &quot;signUpSuccess&quot;);" />
+          <node column0="(69,13) connections.AddListener(&quot;LAUNCH_SIGN_IN&quot;, &quot;signIn&quot;);" />
+          <node column0="(70,13) connections.AddListener(&quot;LAUNCH_SIGN_UP&quot;, &quot;signUp&quot;);" />
+          <node column0="(92,17) connections.AddListener(&quot;LOAD_MODAL&quot;, &quot;loadModal&quot;);   " />
+        </node>
+      </node>
+      <node column0="ASP._Page_Views_Utils_PageNotFound_cshtml (5 items)">
+        <node column0="Execute():void (5 items)">
+          <node column0="(67,13) connections.AddListener(&quot;USER_SIGNED_IN&quot;, &quot;signInSuccess&quot;);" />
+          <node column0="(68,13) connections.AddListener(&quot;USER_SIGNED_UP&quot;, &quot;signUpSuccess&quot;);" />
+          <node column0="(69,13) connections.AddListener(&quot;LAUNCH_SIGN_IN&quot;, &quot;signIn&quot;);" />
+          <node column0="(70,13) connections.AddListener(&quot;LAUNCH_SIGN_UP&quot;, &quot;signUp&quot;);" />
+          <node column0="(93,17) connections.AddListener(&quot;LOAD_MODAL&quot;, &quot;loadModal&quot;);   " />
+        </node>
+      </node>
+      <node column0="ASP._Page_Views_Utils_RenderWidget_cshtml (10 items)">
+        <node column0="Execute():void (10 items)">
+          <node column0="(84,21) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;updatePredictiveText&quot;);" />
+          <node column0="(85,21) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;animateClosed&quot;);" />
+          <node column0="(86,21) connections.AddListener(&quot;OPEN_PREDICTIVE_TEXT&quot;, &quot;openPredictiveText&quot;);" />
+          <node column0="(87,21) connections.AddListener(&quot;NAVIGATE_PREDICTIVE_TEXT&quot;, &quot;navigateInPredictiveTxt&quot;);" />
+          <node column0="(88,21) connections.AddListener(&quot;CLOSE_PREDICTIVE_TEXT&quot;, &quot;closePredictiveText&quot;);" />
+          <node column0="(100,21) connections.AddListener(&quot;SEARCH_FORM_SUBMITTED&quot;, &quot;didYouMean&quot;);" />
+          <node column0="(101,21) connections.AddListener(&quot;UPDATE_PREDICTIVE_TEXT&quot;, &quot;close&quot;);" />
+          <node column0="(113,21) connections.AddListener(&quot;LOAD_MODAL&quot;, &quot;loadModal&quot;);" />
+          <node column0="(114,21) connections.AddListener(&quot;CLOSE_MODAL&quot;, &quot;closeModal&quot;);" />
+          <node column0="(115,21) connections.AddListener(&quot;RESIZE_MODAL&quot;, &quot;resizeModal&quot;);" />
+        </node>
+      </node>
+      <node column0="ASP._Page_Views_Utils_UnexpectedError_cshtml (5 items)">
+        <node column0="Execute():void (5 items)">
+          <node column0="(68,13) connections.AddListener(&quot;USER_SIGNED_IN&quot;, &quot;signInSuccess&quot;);" />
+          <node column0="(69,13) connections.AddListener(&quot;USER_SIGNED_UP&quot;, &quot;signUpSuccess&quot;);" />
+          <node column0="(70,13) connections.AddListener(&quot;LAUNCH_SIGN_IN&quot;, &quot;signIn&quot;);" />
+          <node column0="(71,13) connections.AddListener(&quot;LAUNCH_SIGN_UP&quot;, &quot;signUp&quot;);" />
+          <node column0="(94,17) connections.AddListener(&quot;LOAD_MODAL&quot;, &quot;loadModal&quot;);   " />
+        </node>
+      </node>
+    </node>
+  </node>
+</model>
